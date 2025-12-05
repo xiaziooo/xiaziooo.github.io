@@ -6,13 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Profile
-</span>
+## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Profile</span>
 
 I am a Professor in the School of Cyberspace Security at Hainan University, where I serve as an Academic Leader and Ph.D. Supervisor. I joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. I have led multiple research projects funded by the National Natural Science Foundation of China (NSFC), including a Key Program of the Joint Fund, a General Program, and a Young Scientist Program. I received my Ph.D. in Computer Science from Anhui University (2014–2017) and my M.S. in Computer Science from Jiangsu University (2006–2009). I also studied as a Visiting Scholar in the School of Computing at the University of Utah, USA (2016–2017).
 Openings: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested. Contact (email address): xiafeng@hainanu.edu.cn
 
-## <font color=#D85C27 size=#D85C27>Research Interests</font>
+##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
 My research interests include VANET security, applied cryptography, security and privacy protection, adversarial machine learning, blockchain applications, and secure multi-party computation.
 Work Experience
@@ -21,7 +20,7 @@ Professor, School of Cyberspace Security, Hainan University  Aug 2024–Pres
 Assistant Professor, Faculty of Science, City University of Macau  Aug 2022–Aug 2024
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
 
-Selected Publications
+## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
 [1] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
 
 [2] Cheng W, **Feng X**, Wang L, et al. SMUSAC: Lightweight federated learning framework for SUNETs with tolerance of data loss and node compromise[J]. Computer Networks, 2025: 111626. (CCF B, JCR Q1)
@@ -66,7 +65,7 @@ Selected Publications
 
 
 
-## <font color=#D85C27 size=#D85C27>Patents</font>
+##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Patents</span>
 
 Shi Qichen, Feng Xia, et al.
 A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.
@@ -77,17 +76,17 @@ A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Bl
 **Feng Xia**, Cui Kaiping, et al.
 An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.
 
-## <font color=#D85C27 size=#D85C27>Books</font>
+## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Books</span>
 
 Theory and Methods of Traffic Big Data
 Xia Feng, Yuexia Chen, Chao Sun
 
-## <font color=#D85C27 size=#D85C27>Standards Development</font>
+##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Standards Development</span>
 
 IEEE P3422 Standard for Metaverse, Contributor.
 Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 021–2024 and T/KJDL 022–2024, Contributor.
 
-## <font color=#D85C27 size=#D85C27>Grants</font>
+##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Grants</span>
 
 Secure Collaborative Computing Methods for Vehicle–Road–Network–Cloud Systems Supporting Autonomous Driving, Joint Funds of the National Natural Science Foundation of China Key Program (No.U24A20238), PI  2025.01-2028.12
 
@@ -103,7 +102,7 @@ Identity-Based Security Mechanisms and System Evaluation Methods in VANETs, Nati
 
 Security Convergence Technologies for Heterogeneous Networks in Vehicular Networks, Jiangsu Province Key Research and Development Program (No.BE2015136), Co-PI (Second Major Contributor)   2015.06-2018.06
 
-## <font color=#D85C27 size=#D85C27>Awards</font>
+##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Awards</span>
 
 1.Key Technologies for Security Convergence in Heterogeneous IoT and Their Industrial Applications, Second Prize of Jiangsu Province Science and Technology Progress Award (2019-2-8-R9), 2020, Ranked 9th.
 
@@ -111,7 +110,7 @@ Security Convergence Technologies for Heterogeneous Networks in Vehicular Networ
 
 3.Key Technologies of Maritime Wireless Networks and Their Demonstration Application in the Zhenjiang Section of the Yangtze River, Second Prize of the Zhenjiang Science and Technology Progress Award, 2014, Ranked 5th.
 
-## <font color=#D85C27 size=#D85C27>Professional Service</font>
+##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
 
 **Editorship**
 Youth Editorial Board Member (2024–Present), Journal on Communications
