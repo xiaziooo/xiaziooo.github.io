@@ -8,20 +8,21 @@ redirect_from:
 ---
 ## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Profile</span>
 
-I am a Professor in the School of Cyberspace Security at Hainan University, where I serve as an Academic Leader and Ph.D. Supervisor. I joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. I have led multiple research projects funded by the National Natural Science Foundation of China (NSFC), including a Key Program of the Joint Fund, a General Program, and a Young Scientist Program. I received my Ph.D. in Computer Science from Anhui University (2014–2017) and my M.S. in Computer Science from Jiangsu University (2006–2009). I also studied as a Visiting Scholar in the School of Computing at the University of Utah, USA (2016–2017).
-Openings: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested. Contact (email address): xiafeng@hainanu.edu.cn
+<span style="font-family: 'Latin Modern', Georgia, serif"> I am a Professor in the School of Cyberspace Security at Hainan University, where I serve as an Academic Leader and Ph.D. Supervisor. I joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. I have led multiple research projects funded by the National Natural Science Foundation of China (NSFC), including a Key Program of the Joint Fund, a General Program, and a Young Scientist Program. I received my Ph.D. in Computer Science from Anhui University (2014–2017) and my M.S. in Computer Science from Jiangsu University (2006–2009). I also studied as a Visiting Scholar in the School of Computing at the University of Utah, USA (2016–2017).
+**Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested. **Contact (email address)**: xiafeng@hainanu.edu.cn</span>
 
 ##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
-My research interests include VANET security, applied cryptography, security and privacy protection, adversarial machine learning, blockchain applications, and secure multi-party computation.
+<span style="font-family: 'Latin Modern', Georgia, serif"> My research interests include VANET security, applied cryptography, security and privacy protection, adversarial machine learning, blockchain applications, and secure multi-party computation.
 Work Experience
 
 Professor, School of Cyberspace Security, Hainan University  Aug 2024–Present
 Assistant Professor, Faculty of Science, City University of Macau  Aug 2022–Aug 2024
-Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
+Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022</span>
 
 ## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
-[1] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
+
+<span style="font-family: 'Latin Modern', Georgia, serif">[1] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
 
 [2] Cheng W, **Feng X**, Wang L, et al. SMUSAC: Lightweight federated learning framework for SUNETs with tolerance of data loss and node compromise[J]. Computer Networks, 2025: 111626. (CCF B, JCR Q1)
 
@@ -61,7 +62,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [20] **Feng X**, Cui K, Xie Q, Wang L. Distributed anonymous authentication scheme based on the blockchain in VANET[J]. Journal on Communications, 2022, 43(9): 134–147. (CCF Chinese T1 Journal)
 
-[21] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
+[21] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)</span>
 
 
 
@@ -121,4 +122,5 @@ I have served as a reviewer for more than 20 leading international journals and 
 **Professional Activities**
 Expert Reviewer for Talent Programs, Ministry of Education of China
 Expert Reviewer for Research Proposals, National Natural Science Foundation of China
+
 
