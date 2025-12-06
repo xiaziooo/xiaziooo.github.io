@@ -133,12 +133,12 @@ Security Convergence Technologies for Heterogeneous Networks in Vehicular Networ
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
 
 <span style="font-family: 'Latin Modern', Georgia, serif">
-**Editorship**
+**Editorship**<br>
 Youth Editorial Board Member (2024–Present), Journal on Communications
 
-**Reviewing Service**
+**Reviewing Service**<br>
 I have served as a reviewer for more than 20 leading international journals and conferences, including IEEE TIFS, IEEE TDSC, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Transactions on Emerging Telecommunications Technologies, Vehicular Communications, Computer Standards & Interfaces, Computers & Security, ACM Computing Surveys, and Computer Networks, among others.
 
-**Professional Activities**
+**Professional Activities**<br>
 Expert Reviewer for Talent Programs, Ministry of Education of China<br>
 Expert Reviewer for Research Proposals, National Natural Science Foundation of China
