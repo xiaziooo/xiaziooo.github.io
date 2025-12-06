@@ -1,21 +1,25 @@
 <style>
   /* ==================================================
-     1. 暴力修复：去除巨大的底部 margin 和顶部空隙
+     1. 全局基础设置 (字体与清空留白)
      ================================================== */
   
-  body {
-    /* 核心修复：覆盖 JS 自动计算的 192px */
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    padding-top: 0 !important; 
-    margin-top: 0 !important;
-    overflow-x: hidden !important; /* 防止横向滚动条 */
-  }
-/* 强制整个网页内容区域使用新罗马字体 */
   body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Latin Modern', Georgia, serif !important;
   }
-  /* 专门针对 "Profile", "Research Interests" 这种小标题的颜色类 */
+  
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+  }
+  
+  .page__footer {
+    position: static !important;
+    margin-top: 50px !important;
+    padding-bottom: 20px !important;
+  }
+
+  /* 标题样式 */
   .section-title {
     font-size: 22px !important;
     color: #d85c27 !important;
@@ -24,148 +28,155 @@
     margin-bottom: 10px !important;
     display: block !important;
   }
-  .page__footer {
-    /* 让页脚乖乖呆在最下面，不要乱飘 */
-    position: static !important;
-    margin-top: 50px !important;
-    padding-bottom: 20px !important;
-  }
 
   /* ==================================================
-     2. 全局容器优化：让内容不挤
+     2. 电脑端布局 (宽屏)
      ================================================== */
   
   .page__inner-wrap {
-    width: 96% !important;        /* 稍微留一点缝隙，看起来更专业 */
+    width: 96% !important;
     max-width: 100% !important;
     margin: 0 auto !important;
-    padding: 20px 0 0 0 !important; /* 顶部留20px呼吸感 */
+    padding: 20px 0 0 0 !important;
   }
 
-  /* ==================================================
-     3. 核心布局 (Flexbox)
-     ================================================== */
-  
   #main {
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: row !important; /* 左右排列 */
     align-items: flex-start !important;
     justify-content: flex-start !important;
     width: 100% !important;
-    gap: 40px !important; /* 侧边栏和内容之间的间距 */
+    gap: 40px !important;
   }
 
-  /* ==================================================
-     4. 左侧侧边栏 (Sidebar)
-     ================================================== */
-  
-.sidebar {
-  position: fixed !important;      /* ✅ 手机上也固定 */
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  margin-bottom: 0 !important;
-  z-index: 9999 !important;
-  background: #fff !important;
-  padding: 10px 0 !important;
-  border-bottom: 1px solid #ddd !important;
-}
+  /* --- 电脑端侧边栏 --- */
+  .sidebar {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 20px !important;
+    width: 260px !important;
+    min-width: 260px !important;
+    height: fit-content !important;
+    z-index: 999 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
 
-
-  /* --- 名字和信息的间距 (你的新需求) --- */
   .author__name {
-    /* 增加下边距，大约是两行的高度 */
-    margin-bottom: 40px !important; 
+    margin-bottom: 40px !important;
     display: block !important;
   }
 
-  /* 修复头像居中 */
   .author__avatar img {
     margin: 0 auto 10px auto !important;
     display: block !important;
-    max-width: 180px !important; /* 限制一下头像大小，防止太大 */
+    max-width: 180px !important;
   }
   
-  /* 强制内容块居中 */
   .sidebar .author__content,
   .sidebar .author__urls-wrapper {
     width: 100% !important;
     text-align: center !important;
   }
 
-  /* --- 修复链接点击问题 --- */
   .author__urls.social-icons {
     display: inline-block !important;
     position: relative !important;
-    z-index: 1000 !important; /* 确保它在最上层 */
+    z-index: 1000 !important;
   }
   
-  /* 确保链接本身也是可点击的 */
   .author__urls.social-icons li a {
     pointer-events: auto !important;
     cursor: pointer !important;
-    display: block !important; /* 让点击区域更大 */
-    padding: 5px 0 !important; /* 增加点击区域高度 */
+    display: block !important;
+    padding: 5px 0 !important;
   }
 
-  /* ==================================================
-     5. 右侧内容 (Archive)
-     ================================================== */
-  
+  /* --- 电脑端右侧内容 --- */
   .archive {
-    flex: 1 !important;        /* 占满剩余空间 */
-    min-width: 0 !important;   /* 防止溢出 */
-    width: auto !important;    /* 自动宽度 */
+    flex: 1 !important;
+    min-width: 0 !important;
+    width: auto !important;
     margin-top: 0 !important;
-    
-    /* 优化阅读体验，稍微限制一下最大行宽，太长了很难读 */
-    /* 如果你想铺满全屏，可以把下面这行删掉 */
-    padding-right: 20px !important; 
+    padding-right: 20px !important;
   }
-
-  /* 调整右侧文字的大小和行距，防止太挤 */
+  
   .archive p {
     font-size: 1.1em !important;
     line-height: 1.6 !important;
   }
 
   /* ==================================================
-     6. 手机端适配
+     3. 手机端适配 (重点修改区域)
      ================================================== */
   
   @media screen and (max-width: 900px) {
+    
+    /* 1. 布局改为上下排列 */
     #main {
       flex-direction: column !important;
-      gap: 20px !important;
+      gap: 0 !important; /* 去除间距，让侧边栏紧贴内容 */
     }
-    .sidebar {
-      position: static !important;
-      width: 100% !important;
-      margin-bottom: 30px !important;
-      z-index: 1 !important; /* 手机上不需要那么高 */
-    }
-    .author__name {
-      margin-bottom: 20px !important; /* 手机上间距小一点 */
-    }
-    .page__inner-wrap {
-      padding: 10px !important;
-      width: 100% !important;
-    }
-    .archive {
-      padding-right: 0 !important;
-    }
-  }
-  /* ✅ 手机端：为顶部固定 sidebar 预留空间，防止正文被盖住 */
-@media screen and (max-width: 900px) {
-  .archive {
-    padding-top: 140px !important;
-  }
-}
-/* ✅ 强制禁止任何主题在手机端隐藏 sidebar */
-@media screen and (max-width: 900px) {
-  .sidebar {
-    display: block !important;
-  }
-}
 
+    .page__inner-wrap {
+      padding: 0 !important; /* 手机上去掉内边距，为了让Sticky头部满宽 */
+      width: 100% !important;
+    }
+
+    /* 2. 手机端侧边栏：置顶 + 固定 */
+    .sidebar {
+      /* 核心：固定在顶部 */
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 0 !important;
+      
+      /* 样式：必须加背景色，不然文字会混在一起 */
+      background: white !important; 
+      border-bottom: 1px solid #eee !important; /* 加个下划线区分内容 */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important; /* 加点阴影更有层次感 */
+      
+      /* 尺寸调整 */
+      width: 100% !important;
+      min-width: 0 !important;
+      margin: 0 !important;
+      padding: 10px 0 !important; /* 上下留点空隙 */
+      z-index: 9999 !important; /* 保证在最上层 */
+    }
+
+    /* 3. 强制显示头像 (修复头像不显示的问题) */
+    .author__avatar {
+      display: block !important;
+    }
+
+    /* 手机上头像缩小一点，不然占满屏幕没法看内容了 */
+    .author__avatar img {
+      max-width: 80px !important; 
+      margin: 0 auto 5px auto !important;
+      border-radius: 50% !important; /* 变成圆形更节省空间 */
+    }
+
+    /* 名字样式调整 */
+    .author__name {
+      font-size: 18px !important;
+      margin-bottom: 5px !important; /* 手机上不需要那么大间距 */
+    }
+
+    /* 4. 隐藏手机上不重要的 Bio 简介，防止头部太高挡住视线 */
+    .author__bio {
+      display: none !important; 
+    }
+    
+    /* 地址等信息横向排列，节省纵向空间 */
+    .author__urls.social-icons li {
+      display: inline-block !important;
+      margin: 0 5px !important;
+    }
+    
+    /* 5. 下方内容区域调整 */
+    .archive {
+      padding: 20px 15px !important; /* 给内容加点呼吸感 */
+      width: 100% !important;
+      box-sizing: border-box !important; /* 防止padding撑破宽度 */
+    }
+  }
 </style>
