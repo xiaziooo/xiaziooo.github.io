@@ -36,6 +36,7 @@ Assistant Professor, Faculty of Science, City University of Macau  Aug 2022�
 
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
 <br>
+
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
 
 <span style="font-family: 'Latin Modern', Georgia, serif">
