@@ -62,7 +62,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [20] **Feng X**, Cui K, Xie Q, Wang L. Distributed anonymous authentication scheme based on the blockchain in VANET[J]. Journal on Communications, 2022, 43(9): 134–147. (CCF Chinese T1 Journal)
 
-[21] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)</span>
+[21] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
 
 
 
