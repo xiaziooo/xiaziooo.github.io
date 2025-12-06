@@ -29,7 +29,7 @@
   }
 
   /* ==================================================
-     2. 电脑端 (PC) - 保持原样
+     2. 电脑端 (PC) - 保持原样 (901px以上)
      ================================================== */
   @media screen and (min-width: 901px) {
     .page__inner-wrap { width: 98% !important; max-width: 100% !important; margin: 0 auto !important; padding-top: 20px !important; }
@@ -42,135 +42,144 @@
   }
 
   /* ==================================================
-   ✅✅✅ 手机端：头像在左，邮箱等信息在右（最终稳定版）
-   ================================================== */
-@media screen and (max-width: 900px) {
+     3. 手机端 (Mobile) - 修复版 (900px以下)
+     ================================================== */
+  @media screen and (max-width: 900px) {
+    
+    /* 容器清理 */
+    .page__inner-wrap { width: 100% !important; padding: 0 !important; margin: 0 !important; }
+    #main { display: flex !important; flex-direction: column !important; gap: 0 !important; margin: 0 !important; }
 
-  .page__inner-wrap {
-    width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    /* --- 盒子1 (Sidebar 外壳) --- */
+    /* 负责固定位置、背景色和阴影，但不负责内部 Grid 布局 */
+    .sidebar {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 0 !important;
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important; /* Padding 交给内部处理 */
+      
+      background: white !important;
+      border-bottom: 1px solid #ddd !important;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+      z-index: 99999 !important;
+      
+      /* 确保高度自适应 */
+      height: auto !important;
+      min-height: 80px !important;
+    }
+
+    /* --- 核心修复：Sidebar 的直接子元素 (内部包裹层) --- */
+    /* 这里才是真正的 Grid 布局发生的地方 */
+    .sidebar > div {
+      display: grid !important;
+      /* 左列 70px (头像+名)，右列自适应 (信息) */
+      grid-template-columns: 70px 1fr !important;
+      grid-template-rows: auto auto !important;
+      column-gap: 10px !important;
+      
+      width: 100% !important;
+      padding: 8px 10px !important; /* 内边距加在这里 */
+      box-sizing: border-box !important;
+      
+      /* 垂直居中 */
+      align-items: center !important;
+      align-content: center !important;
+    }
+
+    /* --- 左边：头像 (第1列, 第1行) --- */
+    .author__avatar {
+      grid-column: 1 !important;
+      grid-row: 1 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: center !important;
+      display: block !important;
+    }
+
+    .author__avatar img {
+      display: block !important;
+      width: 50px !important;
+      height: 50px !important;
+      border-radius: 50% !important;
+      margin: 0 auto !important; /* 居中 */
+    }
+
+    /* --- 左边：名字 (第1列, 第2行) --- */
+    .author__content {
+      grid-column: 1 !important;
+      grid-row: 2 !important;
+      text-align: center !important;
+      padding: 0 !important;
+      margin-top: 4px !important;
+    }
+    
+    .author__name {
+      font-size: 13px !important;
+      line-height: 1 !important;
+      margin: 0 !important;
+      white-space: nowrap !important;
+    }
+
+    /* --- 右边：信息列表 (第2列, 跨2行) --- */
+    .author__urls-wrapper {
+      grid-column: 2 !important;
+      grid-row: 1 / span 2 !important; /* 占满右侧两行的高度 */
+      
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important; /* 垂直居中 */
+      align-items: flex-start !important; /* 靠左 */
+      
+      border-left: 1px solid #eee !important;
+      padding-left: 12px !important;
+      margin: 0 !important;
+      height: 100% !important; /* 撑满 */
+    }
+
+    /* 隐藏多余元素 */
+    .author__urls-wrapper button { display: none !important; }
+    .author__bio { display: none !important; }
+
+    /* 列表样式 */
+    .author__urls.social-icons {
+      display: block !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+    }
+
+    .author__urls.social-icons li {
+      display: block !important;
+      font-size: 12px !important;
+      line-height: 1.5 !important;
+      margin: 1px 0 !important;
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      text-align: left !important;
+    }
+    
+    .author__urls.social-icons li a {
+      color: #333 !important;
+      text-decoration: none !important;
+    }
+    
+    .author__urls.social-icons i {
+      width: 16px !important;
+      text-align: center !important;
+      margin-right: 5px !important;
+      color: #d85c27 !important;
+      display: inline-block !important;
+    }
+
+    /* 正文调整 */
+    .archive {
+      padding: 15px 10px !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .archive h1 { margin-top: 10px !important; font-size: 1.4em !important; }
   }
-
-  #main {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0 !important;
-  }
-
-  /* ✅ 顶部固定栏：左右结构 */
-  .sidebar {
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 99999 !important;
-
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 10px 10px !important;
-
-    background: white !important;
-    border-bottom: 1px solid #ddd !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
-
-    /* ✅ 关键：左右两列，而不是上下两行 */
-    display: grid !important;
-    grid-template-columns: 80px 1fr !important;
-    grid-template-rows: auto !important;
-    column-gap: 14px !important;
-    align-items: center !important;
-  }
-
-  /* ✅ 左列：头像 + 名字（垂直居中） */
-  .author__avatar {
-    grid-column: 1 !important;
-    grid-row: 1 !important;
-    text-align: center !important;
-  }
-
-  .author__avatar img {
-    width: 48px !important;
-    height: 48px !important;
-    border-radius: 50% !important;
-    margin: 0 auto !important;
-    display: block !important;
-  }
-
-  .author__content {
-    grid-column: 1 !important;
-    grid-row: 2 !important;
-    text-align: center !important;
-    margin-top: 4px !important;
-  }
-
-  .author__name {
-    font-size: 13px !important;
-    margin: 0 !important;
-    line-height: 1.2 !important;
-    white-space: nowrap !important;
-  }
-
-  /* ✅ 右列：邮箱 / 单位 / 地址 */
-  .author__urls-wrapper {
-    grid-column: 2 !important;
-    grid-row: 1 / span 2 !important;
-
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: flex-start !important;
-
-    border-left: 1px solid #eee !important;
-    padding-left: 14px !important;
-  }
-
-  .author__urls.social-icons {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  .author__urls.social-icons li {
-    display: flex !important;
-    align-items: center !important;
-    gap: 6px !important;
-
-    font-size: 12px !important;
-    line-height: 1.6 !important;
-    margin: 0 !important;
-    white-space: nowrap !important;
-  }
-
-  .author__urls.social-icons li i {
-    flex: 0 0 18px !important;
-    width: 18px !important;
-    text-align: center !important;
-    color: #d85c27 !important;
-  }
-
-  .author__urls.social-icons li a,
-  .author__urls.social-icons li span {
-    flex: 1 !important;
-    text-align: left !important;
-    display: block !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-  }
-
-  .author__urls-wrapper button {
-    display: none !important;
-  }
-
-  .author__bio {
-    display: none !important;
-  }
-
-  /* ✅ 正文 */
-  .archive {
-    padding: 15px 10px !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-  }
-}
-
- 
 </style>
