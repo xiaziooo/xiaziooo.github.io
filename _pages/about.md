@@ -22,7 +22,7 @@ layout: archive  # <--- 修改此处，原为 'single'
 
 **Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested. 
 
-**Contact (email address)**: xiafeng@hainanu.edu.cn</span>
+**Contact (email address)**: xiafeng@hainanu.edu.cn
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
