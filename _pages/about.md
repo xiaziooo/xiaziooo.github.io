@@ -26,6 +26,7 @@ Assistant Professor, Faculty of Science, City University of Macau  Aug 2022�
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
 <br>
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
+ 
 <span style="font-family: 'Latin Modern', Georgia, serif">
 [1] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
 
@@ -72,6 +73,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Patents</span>
+
 <span style="font-family: 'Latin Modern', Georgia, serif">
 Shi Qichen, Feng Xia, et al.
 A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.
@@ -93,6 +95,7 @@ IEEE P3422 Standard for Metaverse, Contributor.
 Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 021–2024 and T/KJDL 022–2024, Contributor.
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Grants</span>
+
 <span style="font-family: 'Latin Modern', Georgia, serif">
 Secure Collaborative Computing Methods for Vehicle–Road–Network–Cloud Systems Supporting Autonomous Driving, Joint Funds of the National Natural Science Foundation of China Key Program (No.U24A20238), PI  2025.01-2028.12
 
@@ -117,6 +120,7 @@ Security Convergence Technologies for Heterogeneous Networks in Vehicular Networ
 3.Key Technologies of Maritime Wireless Networks and Their Demonstration Application in the Zhenjiang Section of the Yangtze River, Second Prize of the Zhenjiang Science and Technology Progress Award, 2014, Ranked 5th.
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
+
 <span style="font-family: 'Latin Modern', Georgia, serif">
 **Editorship**
 Youth Editorial Board Member (2024–Present), Journal on Communications
