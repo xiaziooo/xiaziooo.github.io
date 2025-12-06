@@ -1,102 +1,114 @@
 <style>
   /* ==================================================
-     1. 解决“左右Margin太大”：强制撑开页面宽度
+     1. 根源修正：铲除所有顶部空白
+     解决“刚进去还能往上挪”的问题
      ================================================== */
   
-  /* 解除原来的宽度限制 */
+  /* 暴力清除 Jekyll 模板默认给导航栏留的空位 */
+  body {
+    padding-top: 0 !important; /* 核心：去掉顶部的巨大空隙 */
+    margin-top: 0 !important;
+  }
+  
+  /* 确保主容器紧贴浏览器顶部 */
   .page__inner-wrap {
-    width: 98% !important;        /* 几乎占满全屏，左右留一点点缝隙好看 */
-    max-width: 100% !important;   /* 覆盖原来可能有的 1280px 限制 */
-    margin: 0 auto !important;    /* 整体居中 */
-    padding: 0 10px !important;   /* 极小的左右内边距 */
+    margin-top: 0 !important;
+    padding-top: 40px !important; /* 给内容一点呼吸感，但不是通过 Margin */
+    width: 98% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
   /* ==================================================
-     2. 布局核心：Flexbox
-     这是让左侧能“固定”的前提条件
+     2. 布局结构：Flexbox
      ================================================== */
   
   #main {
-    display: flex !important;           /* 开启弹性布局 */
-    flex-direction: row !important;     /* 左右排列 */
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
     justify-content: flex-start !important;
-    align-items: flex-start !important; /* 关键：顶部对齐，否则Sticky失效 */
     width: 100% !important;
-    gap: 30px !important;               /* 左栏和右栏之间的间距 */
+    gap: 40px !important; /* 左栏和右栏的间距 */
+    margin-top: 0 !important;
   }
 
   /* ==================================================
-     3. 左侧栏：实现“滑动时保持不动” (Sticky)
+     3. 侧边栏：无缝固定 (零跳动)
+     解决“下滑跳一下”的问题
      ================================================== */
   
   .sidebar {
-    /* --- 固定定位的核心代码 --- */
-    position: -webkit-sticky !important; /* Safari 兼容 */
+    /* --- 核心固定逻辑 --- */
+    position: -webkit-sticky !important;
     position: sticky !important;
-    top: 20px !important;                /* 距离浏览器顶部的距离 */
-    z-index: 10 !important;              /* 保证它浮在其他层级之上 */
     
-    /* --- 尺寸和样式 --- */
-    width: 280px !important;             /* 给个固定宽度，或者用 20% */
+    /* 关键点：这里的 top 值要和视觉上的起始位置一致，防止跳动 */
+    top: 40px !important;   /* 意思是：滚到离顶端40px时锁住 */
+    
+    /* 既然我们已经用 page__inner-wrap 的 padding-top 把内容推下来了 */
+    /* 这里就不要再加 margin-top 了，否则会产生“行程差”导致跳动 */
+    margin-top: 0 !important; 
+    
+    /* --- 样式与尺寸 --- */
+    width: 280px !important;
     min-width: 280px !important;
-    height: fit-content !important;      /* 关键：高度由内容决定，不要撑满 */
+    height: fit-content !important; /* 只要包裹住内容即可 */
+    z-index: 100 !important;
     
-    /* --- 内部居中 --- */
+    /* --- 内容对齐 --- */
     text-align: center !important;
-    margin-right: 0 !important;          /* 间距由 #main 的 gap 控制 */
-    margin-top: 40px !important;         /* 初始距离顶部的空隙 */
+    margin-right: 0 !important;
   }
 
-  /* 强制头像和文字居中 */
+  /* 侧边栏内容强制居中 */
   .author__avatar img {
-    margin: 0 auto !important; 
+    margin: 0 auto 10px auto !important; /* 头像下面加点小空隙 */
     display: block !important;
   }
-  
-  .sidebar .author__content,
+  .sidebar .author__content, 
   .sidebar .author__urls-wrapper {
     text-align: center !important;
     width: 100% !important;
   }
-  
-  /* 图标列表居中 */
   .author__urls.social-icons {
     display: inline-block !important;
   }
 
   /* ==================================================
-     4. 右侧内容：占满剩余空间
+     4. 右侧内容：平滑滚动
      ================================================== */
   
   .archive {
-    flex: 1 !important;        /* 霸占剩余的所有宽度 */
-    min-width: 0 !important;   /* 防止内容过宽撑破布局 */
-    margin-top: 0 !important;
-    padding-right: 10px !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+    margin-top: 0 !important; /* 对齐左边 */
+    padding-bottom: 50px !important; /* 底部留点空 */
   }
 
   /* ==================================================
-     5. 手机端适配 (必须要有)
-     手机上不能固定左侧，否则也没法看内容了
+     5. 手机端适配
      ================================================== */
   
   @media screen and (max-width: 900px) {
     #main {
-      flex-direction: column !important; /* 变回上下排列 */
-      gap: 0 !important;
+      flex-direction: column !important;
+      gap: 20px !important;
     }
-
-    .sidebar {
-      position: static !important; /* 手机上取消固定效果 */
-      width: 100% !important;
-      min-width: 0 !important;
-      margin-top: 20px !important;
-      margin-bottom: 30px !important;
-    }
-
     .page__inner-wrap {
+      padding-top: 20px !important; /* 手机上不需要那么多顶部留白 */
+    }
+    .sidebar {
+      position: static !important; /* 手机上取消固定 */
       width: 100% !important;
-      padding: 0 15px !important;
+      margin-top: 0 !important;
+    }
+    .archive {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
     }
   }
 </style>
