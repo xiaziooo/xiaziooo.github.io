@@ -15,14 +15,16 @@ redirect_from:
 **Contact (email address)**: xiafeng@hainanu.edu.cn
 </span>
 
-##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
+<span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
 <span style="font-family: 'Latin Modern', Georgia, serif"> My research interests include VANET security, applied cryptography, security and privacy protection, adversarial machine learning, blockchain applications, and secure multi-party computation.
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Work Experience</span>
 
 Professor, School of Cyberspace Security, Hainan University  Aug 2024–Present<br>
+
 Assistant Professor, Faculty of Science, City University of Macau  Aug 2022–Aug 2024<br>
+
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
 <br>
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
@@ -84,12 +86,12 @@ A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Bl
 **Feng Xia**, Cui Kaiping, et al.
 An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.
 
-## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Books</span>
+<span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Books</span>
 
 Theory and Methods of Traffic Big Data<br>
 Xia Feng, Yuexia Chen, Chao Sun
 
-##  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Standards Development</span>
+<span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Standards Development</span>
 
 IEEE P3422 Standard for Metaverse, Contributor.
 Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 021–2024 and T/KJDL 022–2024, Contributor.
@@ -129,7 +131,7 @@ Youth Editorial Board Member (2024–Present), Journal on Communications
 I have served as a reviewer for more than 20 leading international journals and conferences, including IEEE TIFS, IEEE TDSC, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Transactions on Emerging Telecommunications Technologies, Vehicular Communications, Computer Standards & Interfaces, Computers & Security, ACM Computing Surveys, and Computer Networks, among others.
 
 **Professional Activities**
-Expert Reviewer for Talent Programs, Ministry of Education of China
+Expert Reviewer for Talent Programs, Ministry of Education of China<br>
 Expert Reviewer for Research Proposals, National Natural Science Foundation of China
 
 
