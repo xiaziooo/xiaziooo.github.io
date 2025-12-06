@@ -65,19 +65,18 @@
     font-weight: 700;
   }
 }
-/* 隐藏顶部导航栏 */
-.no-masthead .masthead {
+body.about .masthead {
   display: none !important;
 }
 
-/* 清除 masthead 为主体内容预留的顶部空间 */
-.no-masthead #main {
+body.about #main {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-/* 针对 archive 布局的额外上边距修正 */
-.no-masthead .archive {
+body.about .archive,
+body.about .page,
+body.about .page__inner-wrap {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
