@@ -1,17 +1,23 @@
 <style>
   /* ==================================================
-     1. 基础设置
+     1. 全局安全设置 (基础)
      ================================================== */
   body {
+    background-color: #ffffff !important;
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden !important; 
-    margin-bottom: 0 !important;
   }
-  
+
   /* 全局强制新罗马字体 */
   body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Latin Modern', Georgia, serif !important;
+  }
+  
+  .page__footer {
+    position: static !important;
+    margin-top: 50px !important;
+    padding-bottom: 20px !important;
   }
   
   .section-title {
@@ -22,188 +28,203 @@
     margin-bottom: 10px !important;
     display: block !important;
   }
-  
-  .page__footer {
-    position: static !important;
-    margin-top: 50px !important;
-    padding-bottom: 20px !important;
+
+  /* ==================================================
+     2. 电脑端 (PC) - 保持你觉得完美的状态
+     (仅在屏幕宽度大于 900px 时生效)
+     ================================================== */
+  @media screen and (min-width: 901px) {
+    .page__inner-wrap {
+      width: 98% !important;
+      max-width: 100% !important;
+      margin: 0 auto !important;
+      padding-top: 20px !important;
+    }
+
+    #main {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: flex-start !important;
+      width: 100% !important;
+      gap: 20px !important;
+    }
+
+    .sidebar {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 20px !important;
+      width: 220px !important;
+      min-width: 220px !important;
+      z-index: 999 !important;
+      text-align: center !important;
+    }
+
+    .author__name {
+      margin-bottom: 40px !important;
+      display: block !important;
+    }
+
+    .author__avatar img {
+      max-width: 180px !important;
+      display: block !important;
+      margin: 0 auto 10px auto !important;
+    }
+
+    .archive {
+      flex: 1 !important;
+      min-width: 0 !important;
+      padding-right: 10px !important;
+    }
+
+    .archive p {
+      font-size: 1.1em !important;
+      line-height: 1.6 !important;
+    }
   }
 
   /* ==================================================
-     2. 电脑端布局 (宽屏)
+     3. 手机端 (Mobile) - 深度定制版
+     (仅在屏幕宽度小于 900px 时生效)
      ================================================== */
-  
-  .page__inner-wrap {
-    width: 98% !important; 
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    padding: 20px 0 0 0 !important; 
-  }
-
-  #main {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important;
-    justify-content: flex-start !important;
-    width: 100% !important;
-    gap: 20px !important; 
-  }
-
-  /* --- 电脑端侧边栏 --- */
-  .sidebar {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 20px !important;
-    width: 220px !important;
-    min-width: 220px !important;
-    height: fit-content !important;
-    z-index: 999 !important; 
-    text-align: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  .author__avatar img {
-    margin: 0 auto 10px auto !important;
-    display: block !important;
-    max-width: 180px !important;
-  }
-  
-  .author__name {
-    margin-bottom: 40px !important; 
-    display: block !important;
-  }
-
-  .sidebar .author__content,
-  .sidebar .author__urls-wrapper {
-    width: 100% !important;
-    text-align: center !important;
-  }
-
-  .author__urls.social-icons {
-    display: inline-block !important;
-    position: relative !important;
-    z-index: 1000 !important; 
-  }
-  
-  .author__urls.social-icons li a {
-    pointer-events: auto !important;
-    cursor: pointer !important;
-    display: block !important; 
-    padding: 5px 0 !important; 
-  }
-
-  /* --- 电脑端右侧内容 --- */
-  .archive {
-    flex: 1 !important;     
-    min-width: 0 !important;   
-    width: auto !important;    
-    margin-top: 0 !important;
-    padding-right: 10px !important; 
-  }
-
-  .archive p {
-    font-size: 1.1em !important;
-    line-height: 1.6 !important;
-  }
-
-  /* ==================================================
-     3. 手机端适配 (居中修复版)
-     ================================================== */
-  
   @media screen and (max-width: 900px) {
     
-    /* 1. 父容器强制居中 */
-    #main {
-      flex-direction: column !important;
-      align-items: center !important; /* 关键：让子元素水平居中 */
-      gap: 0 !important;
-      width: 100% !important;
-    }
-    
+    /* --- 容器重置 --- */
     .page__inner-wrap {
-      padding: 0 !important;
       width: 100% !important;
-      overflow: visible !important; /* 允许侧边栏撑满屏幕 */
+      padding: 0 !important;
+      margin: 0 !important;
     }
 
-    /* 2. 侧边栏：强制铺满屏幕并居中内容 */
+    #main {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0 !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+
+    /* --- 侧边栏：核心改造 (使用 Grid 布局) --- */
+    /* 目标：左边是[头像+名字]，右边是[邮箱+地址] */
     .sidebar {
       position: -webkit-sticky !important;
       position: sticky !important;
       top: 0 !important;
       
-      /* 【核心修改】：强制宽度为视口宽度的100%，无视父级padding */
-      width: 100vw !important; 
-      left: 0 !important;
-      margin-left: calc(-50vw + 50%) !important; /* 抵消父级可能存在的居中偏移 */
-      margin-right: calc(-50vw + 50%) !important;
+      width: 100% !important;
+      margin: 0 !important;
       
-      padding: 15px 0 !important;
+      /* 高度压缩：减少 padding */
+      padding: 8px 5px !important; 
       
-      background: #ffffff !important; 
-      border-bottom: 1px solid #eee !important;
-      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1) !important;
+      background: white !important;
+      border-bottom: 1px solid #ddd !important;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
       z-index: 99999 !important;
       
-      /* 强制 Flex 居中布局 */
-      display: flex !important;
-      flex-direction: column !important;
-      align-items: center !important;     /* 水平居中 */
-      justify-content: center !important; /* 垂直居中 */
+      /* 开启 Grid 网格布局 */
+      display: grid !important;
+      /* 定义两列：左列固定80px，右列自动填满剩余空间 */
+      grid-template-columns: 80px 1fr !important;
+      /* 定义两行：用于左侧头像和名字的堆叠 */
+      grid-template-rows: auto auto !important;
+      align-items: center !important; /* 垂直居中 */
+      column-gap: 10px !important;    /* 左右两列的间距 */
     }
 
-    /* 3. 头像修复 */
-    div.sidebar .author__avatar,
-    div.sidebar .author__avatar img {
+    /* --- 左下角区域：头像 (Grid位置: 第1列, 跨越2行) --- */
+    /* 这里的逻辑稍微调整：让头像在左上，名字在左下 */
+    
+    .author__avatar {
+      grid-column: 1 !important; /* 第一列 */
+      grid-row: 1 !important;    /* 第一行 */
+      margin: 0 !important;
+      padding: 0 !important;
       display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-      height: auto !important;
-      
-      /* 稍微调大一点点头像，看起来大气一点 */
-      width: 90px !important; 
-      max-width: 90px !important;
-      min-width: 90px !important;
-      
+    }
+
+    .author__avatar img {
+      display: block !important;
+      width: 50px !important;       /* 头像改小，节省空间 */
+      max-width: 50px !important;
+      height: 50px !important;
       border-radius: 50% !important;
-      margin: 0 auto 8px auto !important; /* 确保自身margin居中 */
+      margin: 0 auto !important;    /* 在左侧小格子里居中 */
     }
 
+    /* --- 左下角区域：名字 (Grid位置: 第1列, 第2行) --- */
+    .author__content {
+      grid-column: 1 !important;
+      grid-row: 2 !important;
+      text-align: center !important;
+      padding: 0 !important;
+    }
+    
     .author__name {
-      margin-bottom: 5px !important;
-      font-size: 20px !important;
+      margin: 2px 0 0 0 !important; /* 名字紧贴头像 */
+      font-size: 13px !important;   /* 字体改小 */
       line-height: 1.2 !important;
-      text-align: center !important; /* 文字居中 */
-      width: 100% !important;
+      white-space: nowrap !important; /* 防止名字换行 */
     }
 
+    /* --- 右侧区域：邮箱地址 (Grid位置: 第2列, 跨越2行) --- */
+    .author__urls-wrapper {
+      grid-column: 2 !important;     /* 放在右边那一大块 */
+      grid-row: 1 / span 2 !important; /* 占满右边的高度 */
+      text-align: left !important;     /* 内容靠左对齐 */
+      padding-left: 5px !important;
+      border-left: 1px solid #eee !important; /* 加个分割线好看点 */
+    }
+
+    /* 右侧按钮隐藏 (太占地了，手机上只要看信息) */
+    .author__urls-wrapper button {
+      display: none !important; 
+    }
+
+    /* 右侧信息列表样式优化 */
+    .author__urls.social-icons {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: flex !important;
+      flex-direction: column !important; /* 上下排列信息 */
+      justify-content: center !important;
+    }
+
+    .author__urls.social-icons li {
+      display: block !important;
+      font-size: 12px !important; /* 信息字体改小 */
+      line-height: 1.4 !important;
+      margin: 2px 0 !important;
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important; /* 太长就省略号 */
+    }
+
+    /* 隐藏 bio 简介 */
     .author__bio {
       display: none !important;
     }
     
-    /* 按钮和链接区域居中 */
-    .author__urls-wrapper {
-      width: 100% !important;
+    /* 隐藏 Email / Scholar 这些文字标签，只留图标和内容，不然太挤 */
+    /* 如果你想保留文字，把下面这段删掉 */
+    .author__urls.social-icons i {
+      font-size: 12px !important;
+      width: 16px !important;
       text-align: center !important;
-      margin-top: 5px !important;
-    }
-    
-    .author__urls.social-icons {
-      text-align: center !important;
-      width: 100% !important;
+      margin-right: 5px !important;
+      color: #d85c27 !important; /* 图标给点颜色 */
     }
 
-    .author__urls.social-icons li {
-      display: inline-block !important;
-      margin: 0 8px !important;
-    }
-
-    /* 4. 内容区域 */
+    /* --- 下方正文区域 --- */
     .archive {
-      padding: 20px 10px !important;
+      padding: 15px 10px !important; /* 给正文留点空隙 */
       width: 100% !important;
       box-sizing: border-box !important;
+    }
+    
+    /* 手机上标题稍微小一点 */
+    .archive h1 {
+      margin-top: 10px !important;
+      font-size: 1.4em !important;
     }
   }
 </style>
