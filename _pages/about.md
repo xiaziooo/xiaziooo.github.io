@@ -9,6 +9,7 @@ redirect_from:
   - /about/
 
   - /about.html
+layout: archive  # <--- 修改此处，原为 'single'
 
 ---
 
