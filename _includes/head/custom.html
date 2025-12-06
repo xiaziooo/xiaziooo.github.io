@@ -1,107 +1,105 @@
 <style>
   /* ==================================================
-     1. 全局容器解锁：让页面变宽，平铺全屏
+     1. 容器重置：强制占满整个屏幕宽度
      ================================================== */
   
-  /* 解除原本主题对宽度的死板限制 */
+  /* 也就是最外层的壳子，不能让它限制宽度 */
   .page__inner-wrap {
-    max-width: 95% !important; /* 占据屏幕 95% 的宽度 */
     width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 0 !important;
+    max-width: 100% !important; /* 核心：撑开全屏 */
+    padding: 0 40px !important; /* 左右稍微留点缝，别贴死屏幕边 */
+    margin: 0 !important;
   }
 
-  /* ==================================================
-     2. 核心布局重构：使用 Flexbox (弹性盒子)
-     这是解决“乱跑”的关键
-     ================================================== */
-  
+  /* 主布局容器：开启 Flex 模式 */
   #main {
-    display: flex !important;           /* 开启弹性布局 */
-    flex-direction: row !important;     /* 电脑上横向排列 */
-    justify-content: center !important; /* 整体居中 */
+    display: flex !important;           /* 开启弹性盒子 */
+    flex-direction: row !important;     /* 横向排列：左边是侧边栏，右边是内容 */
     align-items: flex-start !important; /* 顶部对齐 */
+    justify-content: flex-start !important; /* 从左边开始排，不要居中！ */
     width: 100% !important;
   }
 
   /* ==================================================
-     3. 侧边栏 (Sidebar) 定制
+     2. 左侧：侧边栏 (Sidebar)
+     要求：在左边，内部居中，离顶部有距离
      ================================================== */
   
   .sidebar {
-    /* 宽度控制 */
-    width: 300px !important;   /* 给个固定宽度，防止忽胖忽瘦 */
-    min-width: 300px !important;
-    flex-shrink: 0 !important; /* 禁止侧边栏被挤压变形 */
+    /* 宽度设置：你可以把 25% 改成你想要的像素，例如 300px */
+    width: 20% !important;      
+    min-width: 250px !important; /* 保证最小宽度，别太窄 */
     
-    /* 位置控制 */
-    margin-top: 80px !important;   /* 【需求】往下挪一点 */
-    margin-right: 60px !important; /* 【需求】离右边内容远一点 (Padding) */
+    /* 位置设置 */
+    margin-top: 80px !important;    /* 距离顶部的距离 */
+    margin-right: 50px !important;  /* 侧边栏和右侧内容的间距 */
     
-    /* 样式重置 */
-    float: none !important;    /* 禁用原来的浮动，防止乱跑 */
-    text-align: center !important; /* 【需求】内容左右居中 */
-    padding: 0 !important;
+    /* 内部对齐：让头像和字在“左侧这一栏”里居中 */
+    text-align: center !important; 
+    
+    /* 清除干扰样式 */
+    float: none !important;
+    position: relative !important; /* 先取消 sticky，防止定位干扰布局 */
   }
 
-  /* 强制侧边栏里的头像、文字全部居中 */
-  .sidebar .author__avatar img,
-  .sidebar .author__content,
-  .sidebar .author__urls-wrapper {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center !important;
+  /* 强制头像图片居中 */
+  .author__avatar img {
+    margin: 0 auto !important; 
     display: block !important;
   }
+
+  /* 强制侧边栏内所有内容块居中 */
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    width: 100% !important;
+    text-align: center !important;
+  }
   
-  /* 修复图标列表的对齐 */
+  /* 修复图标列表居中 */
   .author__urls.social-icons {
-    display: inline-block !important; /* 让列表紧凑居中 */
+    display: inline-block !important;
   }
 
   /* ==================================================
-     4. 右侧主要内容 (Archive) 定制
+     3. 右侧：文献块 (Archive)
+     要求：占满剩余所有空间
      ================================================== */
   
   .archive {
-    flex-grow: 1 !important;   /* 自动占满剩下的所有空间 */
-    max-width: 100% !important;
-    float: none !important;    /* 禁用浮动 */
-    margin-right: 0 !important;
-    padding-right: 0 !important;
-    width: auto !important;    /* 自动适应宽度 */
+    /* 核心：flex: 1 代表“剩余空间全给我” */
+    flex: 1 !important;  
+    
+    /* 样式重置 */
+    width: auto !important; 
+    max-width: none !important; /* 解除最大宽度限制 */
+    float: none !important;
+    margin-top: 0 !important;
+    padding-right: 20px !important; /* 右边留点呼吸感 */
   }
 
   /* ==================================================
-     5. 手机端/小屏幕 完美适配 (Mobile Responsive)
-     【需求】手机上等比例缩放，不乱跑
+     4. 手机端适配
      ================================================== */
-  
   @media screen and (max-width: 900px) {
-    /* 屏幕变窄时，改为垂直排列 */
     #main {
-      flex-direction: column !important; /* 上下排列 */
-      align-items: center !important;    /* 居中对齐 */
+      flex-direction: column !important; /* 改为上下排列 */
+      align-items: center !important;    /* 整体居中 */
     }
 
     .sidebar {
-      width: 100% !important;   /* 手机上侧边栏占满宽度 */
-      min-width: 0 !important;
+      width: 100% !important;
       margin-right: 0 !important;
-      margin-top: 20px !important; /* 手机上不需要空那么多头 */
-      margin-bottom: 40px !important; /* 和下面内容的间距 */
-      position: static !important; /* 手机上取消固定定位，防止遮挡 */
+      margin-top: 20px !important;
+      margin-bottom: 40px !important;
     }
 
     .archive {
       width: 100% !important;
-      padding: 0 20px !important; /* 手机上两边留点缝隙，好看 */
+      padding: 0 10px !important;
     }
     
-    /* 字体等比例适配 */
-    body {
-      font-size: 16px !important; /* 保证手机上字号合适 */
+    .page__inner-wrap {
+      padding: 0 10px !important; /* 手机上边距改小 */
     }
   }
 </style>
