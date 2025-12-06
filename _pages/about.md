@@ -20,7 +20,7 @@ layout: archive  # <--- 修改此处，原为 'single'
 
  I am a Professor in the School of Cyberspace Security at Hainan University, where I serve as an Academic Leader and Ph.D. Supervisor. I joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. I have led multiple research projects funded by the National Natural Science Foundation of China (NSFC), including a Key Program of the Joint Fund, a General Program, and a Young Scientist Program. I received my Ph.D. in Computer Science from Anhui University (2014–2017) and my M.S. in Computer Science from Jiangsu University (2006–2009). I also studied as a Visiting Scholar in the School of Computing at the University of Utah, USA (2016–2017).[[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ)  [[中文版主页]](https://scs.hainanu.edu.cn/info/1051/5382.htm)
 
-**Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested.</span>
+**Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested.
 
 **Contact (email address)**: xiafeng@hainanu.edu.cn
 
@@ -85,7 +85,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Patents</span>
 
-Shi Qichen, Feng Xia, et al.
+Shi Qichen, **Feng Xia**, et al.
 A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.
 
 **Feng Xia**, Cui Kaiping, et al.
@@ -106,19 +106,19 @@ Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 0
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Grants</span>
 
-Secure Collaborative Computing Methods for Vehicle–Road–Network–Cloud Systems Supporting Autonomous Driving, Joint Funds of the National Natural Science Foundation of China Key Program (No.U24A20238), PI  2025.01-2028.12
+1.Secure Collaborative Computing Methods for Vehicle–Road–Network–Cloud Systems Supporting Autonomous Driving, Joint Funds of the National Natural Science Foundation of China Key Program (No.U24A20238), PI  2025.01-2028.12
 
-Privacy-Aware Crowdsourced Service Architecture and Key Technologies for Traffic Big Data, National Natural Science Foundation of China General Program (No.62272203), PI  2023.01-2026.12
+2.Privacy-Aware Crowdsourced Service Architecture and Key Technologies for Traffic Big Data, National Natural Science Foundation of China General Program (No.62272203), PI  2023.01-2026.12
 
-Trusted Management Platform for Huilong Logistics Trading System, Contract Research Project, PI  2022.01-2022.12
+3.Trusted Management Platform for Huilong Logistics Trading System, Contract Research Project, PI  2022.01-2022.12
 
-Intrusion-Tolerant Privacy Assessment Methods in Heterogeneous Vehicular Networks, National Natural Science Foundation of China Young Scientists Fund (No.61902157), PI  2020.01-2022.12
+4.Intrusion-Tolerant Privacy Assessment Methods in Heterogeneous Vehicular Networks, National Natural Science Foundation of China Young Scientists Fund (No.61902157), PI  2020.01-2022.12
 
-Privacy Assessment Methods in Vehicular Networks, China Postdoctoral Science Foundation (No.2019M661753), PI  2020.01-2021.12
+5.Privacy Assessment Methods in Vehicular Networks, China Postdoctoral Science Foundation (No.2019M661753), PI  2020.01-2021.12
 
-Identity-Based Security Mechanisms and System Evaluation Methods in VANETs, National Natural Science Foundation of China General Program (No. 61472001), Co-PI (Second Major Contributor)  2015.01-2018.12
+6.Identity-Based Security Mechanisms and System Evaluation Methods in VANETs, National Natural Science Foundation of China General Program (No. 61472001), Co-PI (Second Major Contributor)  2015.01-2018.12
 
-Security Convergence Technologies for Heterogeneous Networks in Vehicular Networks, Jiangsu Province Key Research and Development Program (No.BE2015136), Co-PI (Second Major Contributor)   2015.06-2018.06
+7.Security Convergence Technologies for Heterogeneous Networks in Vehicular Networks, Jiangsu Province Key Research and Development Program (No.BE2015136), Co-PI (Second Major Contributor)   2015.06-2018.06
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Awards</span>
 
