@@ -1,6 +1,6 @@
 <style>
   /* ==================================================
-     1. 全局基础安全设置
+     1. 全局基础设置
      ================================================== */
   body {
     background-color: #ffffff !important;
@@ -9,7 +9,7 @@
     overflow-x: hidden !important; 
   }
 
-  /* 强制全局字体 */
+  /* 全局强制新罗马字体 */
   body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Latin Modern', Georgia, serif !important;
   }
@@ -30,8 +30,7 @@
   }
 
   /* ==================================================
-     2. 电脑端 (PC) - 完美保持原样
-     (屏幕宽度 > 900px 时生效)
+     2. 电脑端 (PC) - 保持完美状态，完全不动
      ================================================== */
   @media screen and (min-width: 901px) {
     .page__inner-wrap {
@@ -83,156 +82,139 @@
   }
 
   /* ==================================================
-     3. 手机端 (Mobile) - 极简信息版
-     (屏幕宽度 <= 900px 时生效)
+     3. 手机端 (Mobile) - 按照你的新要求深度重构
      ================================================== */
   @media screen and (max-width: 900px) {
     
-    /* --- 容器重置 --- */
-    .page__inner-wrap {
-      width: 100% !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
+    /* 容器清理 */
+    .page__inner-wrap { width: 100% !important; padding: 0 !important; margin: 0 !important; }
+    #main { display: flex !important; flex-direction: column !important; gap: 0 !important; margin: 0 !important; }
 
-    #main {
-      display: flex !important;
-      flex-direction: column !important;
-      gap: 0 !important;
-      width: 100% !important;
-      margin: 0 !important;
-    }
-
-    /* --- 侧边栏：Grid 布局 (左窄右宽) --- */
+    /* --- 盒子1 (Sidebar) 整体布局 --- */
     .sidebar {
       position: -webkit-sticky !important;
       position: sticky !important;
       top: 0 !important;
-      
       width: 100% !important;
       margin: 0 !important;
       
-      /* 【修改点】：高度极限压缩，上下只留 5px */
-      padding: 5px !important; 
+      /* 核心：高度尽可能小 */
+      padding: 5px 8px !important; 
       
       background: white !important;
       border-bottom: 1px solid #ddd !important;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
       z-index: 99999 !important;
       
-      /* Grid 布局：左列 70px，右列自动 */
+      /* 网格布局：左边固定70px，右边自动 */
       display: grid !important;
-      grid-template-columns: 70px 1fr !important;
-      grid-template-rows: auto auto !important;
-      align-items: center !important; 
-      column-gap: 5px !important;
+      grid-template-columns: 70px 1fr !important; 
+      grid-template-rows: auto auto !important; /* 两行：一行放头像，一行放名字 */
+      column-gap: 10px !important;
+      align-items: center !important;
     }
 
-    /* --- 左侧：头像 (更小) --- */
-    .author__avatar {
+    /* --- 左边部分：头像 (第1列, 第1行) --- */
+    div.sidebar .author__avatar,
+    div.sidebar .author__avatar img {
       grid-column: 1 !important;
       grid-row: 1 !important;
-      margin: 0 !important;
+      
       display: block !important;
-    }
-
-    .author__avatar img {
-      display: block !important;
-      /* 【修改点】：头像缩小到 45px */
-      width: 45px !important;       
-      max-width: 45px !important;
-      height: 45px !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      
+      /* 头像改小 */
+      width: 50px !important;
+      height: 50px !important;
+      max-width: 50px !important;
       border-radius: 50% !important;
-      margin: 0 auto !important;
+      margin: 0 auto !important; 
     }
 
-    /* --- 左侧：名字 (更紧凑) --- */
+    /* --- 左边部分：名字 (第1列, 第2行) --- */
     .author__content {
       grid-column: 1 !important;
       grid-row: 2 !important;
       text-align: center !important;
       padding: 0 !important;
+      margin-top: 2px !important;
     }
     
     .author__name {
-      margin: 2px 0 0 0 !important;
-      /* 【修改点】：字体缩小，防止换行 */
-      font-size: 12px !important;   
-      line-height: 1.2 !important;
-      white-space: nowrap !important;
-      font-weight: bold !important;
+      font-size: 13px !important;
+      line-height: 1 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      white-space: nowrap !important; /* 防止名字换行 */
     }
 
-    /* --- 右侧：纯文本信息列表 --- */
+    /* --- 右边部分：信息列表 (第2列, 跨2行) --- */
     .author__urls-wrapper {
       grid-column: 2 !important;
-      grid-row: 1 / span 2 !important; /* 占满右侧高度 */
+      grid-row: 1 / span 2 !important; /* 占满右边的高度 */
+      padding: 0 !important;
+      margin: 0 !important;
       text-align: left !important;
-      padding-left: 10px !important;
       border-left: 1px solid #eee !important; /* 加个分割线 */
+      padding-left: 10px !important;
       
-      /* 强制 Flex 垂直居中 */
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
+      /* 强制高度自适应，不要有滚动条 */
+      height: auto !important;
+      overflow: visible !important;
     }
 
-    /* 【关键修改】：彻底隐藏 Follow 按钮 */
-    .author__urls-wrapper button,
-    .btn {
+    /* 1. 核心：隐藏 Follow 按钮 */
+    .author__urls-wrapper button {
       display: none !important;
     }
 
-    /* 信息列表样式 */
+    /* 2. 核心：强制展开列表 */
     .author__urls.social-icons {
-      margin: 0 !important;
+      display: block !important; /* 不再是隐藏的 */
+      position: static !important; /* 取消定位，让它直接显示 */
+      background: transparent !important;
+      box-shadow: none !important;
       padding: 0 !important;
-      display: block !important; /* 块级显示，一行一个 */
+      margin: 0 !important;
+      border: none !important;
     }
 
+    /* 3. 列表项样式：一行一个，紧凑排列 */
     .author__urls.social-icons li {
       display: block !important; /* 强制换行，一行一个 */
-      font-size: 11px !important; /* 字号调小，防止太挤 */
-      line-height: 1.5 !important;
-      margin: 0 !important;
-      text-align: left !important;
+      font-size: 12px !important;
+      line-height: 1.4 !important; /* 行间距紧凑 */
+      margin: 2px 0 !important;
       white-space: nowrap !important;
       overflow: hidden !important;
-      text-overflow: ellipsis !important; /* 太长自动省略 */
-      color: #333 !important;
-    }
-
-    /* 图标颜色和大小 */
-    .author__urls.social-icons i {
-      font-size: 11px !important;
-      width: 14px !important;
-      text-align: center !important;
-      margin-right: 4px !important;
-      color: #d85c27 !important;
+      text-overflow: ellipsis !important;
     }
     
-    /* 链接文字颜色 */
-    .author__urls.social-icons a {
-      color: inherit !important;
+    /* 链接文字颜色调整 */
+    .author__urls.social-icons li a {
+      color: #333 !important;
       text-decoration: none !important;
+    }
+    
+    /* 图标样式微调 */
+    .author__urls.social-icons i {
+      width: 16px !important;
+      text-align: center !important;
+      margin-right: 5px !important;
+      color: #d85c27 !important;
     }
 
     /* 隐藏 bio 简介 */
-    .author__bio {
-      display: none !important;
-    }
+    .author__bio { display: none !important; }
 
-    /* --- 下方正文区域 --- */
+    /* 下方正文 */
     .archive {
-      /* 顶部 padding 小一点，因为上方盒子现在很薄 */
-      padding: 10px 10px !important; 
+      padding: 15px 10px !important;
       width: 100% !important;
       box-sizing: border-box !important;
     }
     
-    .archive h1 {
-      margin-top: 5px !important;
-      font-size: 1.4em !important;
-    }
+    .archive h1 { margin-top: 10px !important; font-size: 1.4em !important; }
   }
 </style>
