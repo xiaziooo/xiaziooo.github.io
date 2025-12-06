@@ -59,23 +59,18 @@
      4. 左侧侧边栏 (Sidebar)
      ================================================== */
   
-  .sidebar {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 20px !important;
-    
-    /* 调整宽度，不要太宽，给右边留空间 */
-    width: 260px !important;
-    min-width: 260px !important;
-    height: fit-content !important;
-    
-    /* 提高层级，解决链接无法点击的问题！！！ */
-    z-index: 999 !important; 
-    
-    text-align: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+.sidebar {
+  position: fixed !important;      /* ✅ 手机上也固定 */
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  margin-bottom: 0 !important;
+  z-index: 9999 !important;
+  background: #fff !important;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
 
   /* --- 名字和信息的间距 (你的新需求) --- */
   .author__name {
@@ -160,4 +155,17 @@
       padding-right: 0 !important;
     }
   }
+  /* ✅ 手机端：为顶部固定 sidebar 预留空间，防止正文被盖住 */
+@media screen and (max-width: 900px) {
+  .archive {
+    padding-top: 140px !important;
+  }
+}
+/* ✅ 强制禁止任何主题在手机端隐藏 sidebar */
+@media screen and (max-width: 900px) {
+  .sidebar {
+    display: block !important;
+  }
+}
+
 </style>
