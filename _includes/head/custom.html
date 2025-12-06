@@ -29,7 +29,7 @@
   }
 
   /* ==================================================
-     2. 电脑端 (PC) - 保持完美，完全不动
+     2. 电脑端 (PC) - 保持原样
      ================================================== */
   @media screen and (min-width: 901px) {
     .page__inner-wrap { width: 98% !important; max-width: 100% !important; margin: 0 auto !important; padding-top: 20px !important; }
@@ -42,7 +42,7 @@
   }
 
   /* ==================================================
-     3. 手机端 (Mobile) - 垂直居中修正版
+     3. 手机端 (Mobile) - 防漂移稳定版
      ================================================== */
   @media screen and (max-width: 900px) {
     
@@ -56,8 +56,6 @@
       top: 0 !important;
       width: 100% !important;
       margin: 0 !important;
-      
-      /* 这里的 padding 越小，盒子越紧凑 */
       padding: 8px 8px !important; 
       
       background: white !important;
@@ -65,17 +63,16 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
       z-index: 99999 !important;
       
+      /* Grid 布局 */
       display: grid !important;
       grid-template-columns: 70px 1fr !important; 
-      /* 让两行高度自动适应内容，紧凑排列 */
+      /* 让两行高度紧缩，不要撑开 */
       grid-template-rows: min-content min-content !important;
-      column-gap: 10px !important;
+      column-gap: 12px !important; /* 左右间距稍微拉开一点 */
       
-      /* 【核心修改】：强制垂直居中 */
-      align-content: center !important; 
-      align-items: center !important;
-      height: auto !important;
-      min-height: 80px !important; /* 给个最小高度保证不塌陷 */
+      /* 整体内容垂直居中 */
+      align-content: center !important;
+      min-height: 85px !important; /* 固定一个最小高度，防止抖动 */
     }
 
     /* --- 左边：头像 --- */
@@ -92,12 +89,8 @@
       height: 50px !important;
       max-width: 50px !important;
       border-radius: 50% !important;
-      
-      /* 确保自身无额外边距 */
       margin: 0 auto !important; 
-      
-      /* 垂直居中对齐 */
-      align-self: center !important;
+      align-self: end !important; /* 头像靠下一点，贴近名字 */
     }
 
     /* --- 左边：名字 --- */
@@ -106,8 +99,8 @@
       grid-row: 2 !important;
       text-align: center !important;
       padding: 0 !important;
-      margin-top: 5px !important; /* 名字和头像之间的距离 */
-      align-self: start !important; /* 名字紧跟头像 */
+      margin-top: 4px !important;
+      align-self: start !important; /* 名字靠上一点，贴近头像 */
     }
     
     .author__name {
@@ -118,23 +111,29 @@
       white-space: nowrap !important;
     }
 
-    /* --- 右边：信息列表 --- */
+    /* --- 右边：信息列表 (核心修复漂移) --- */
     .author__urls-wrapper {
       grid-column: 2 !important;
-      /* 跨越两行，确保高度撑满 */
-      grid-row: 1 / span 2 !important;
+      grid-row: 1 / span 2 !important; /* 占满右侧所有高度 */
       
+      /* 清除默认边距 */
       padding: 0 !important;
       margin: 0 !important;
-      text-align: left !important;
-      border-left: 1px solid #eee !important;
-      padding-left: 12px !important;
       
-      /* 也是垂直居中 */
-      align-self: center !important;
+      /* 分割线 */
+      border-left: 1px solid #eee !important;
+      padding-left: 15px !important;
+      
+      /* 强制 Flex 布局控制对齐，防止漂移 */
       display: flex !important;
       flex-direction: column !important;
+      
+      /* 垂直方向：居中 */
       justify-content: center !important;
+      /* 水平方向：靠左 */
+      align-items: flex-start !important; 
+      
+      height: 100% !important; /* 撑满 Grid 单元格的高度 */
     }
 
     .author__urls-wrapper button { display: none !important; }
@@ -143,25 +142,33 @@
       display: block !important;
       padding: 0 !important;
       margin: 0 !important;
+      width: 100% !important; /* 占满宽度 */
     }
 
     .author__urls.social-icons li {
       display: block !important;
       font-size: 12px !important;
-      line-height: 1.5 !important;
-      margin: 1px 0 !important;
+      line-height: 1.6 !important; /* 增加一点行距，防止文字重叠 */
+      margin: 0 !important;
+      text-align: left !important; /* 强制文字左对齐 */
+      
       white-space: nowrap !important;
       overflow: hidden !important;
       text-overflow: ellipsis !important;
     }
     
-    .author__urls.social-icons li a { color: #333 !important; text-decoration: none !important; }
+    .author__urls.social-icons li a { 
+      color: #333 !important; 
+      text-decoration: none !important; 
+      display: inline-block !important; /* 修复某些浏览器下文字飘的问题 */
+    }
     
     .author__urls.social-icons i {
-      width: 16px !important;
+      width: 18px !important; /* 固定图标宽度，保证文字对齐 */
       text-align: center !important;
-      margin-right: 5px !important;
+      margin-right: 6px !important;
       color: #d85c27 !important;
+      display: inline-block !important;
     }
 
     .author__bio { display: none !important; }
