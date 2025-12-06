@@ -18,7 +18,7 @@ Work Experience
 
 Professor, School of Cyberspace Security, Hainan University  Aug 2024–Present
 Assistant Professor, Faculty of Science, City University of Macau  Aug 2022–Aug 2024
-Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022</span>
+Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
 
 ## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
 <span style="font-family: 'Latin Modern', Georgia, serif">
