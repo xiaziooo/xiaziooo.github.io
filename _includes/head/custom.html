@@ -1,21 +1,21 @@
 <style>
   /* ==================================================
-     1. 暴力修复：去除巨大的底部 margin 和顶部空隙
+     1. 基础设置与字体
      ================================================== */
-  
   body {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    padding-top: 0 !important; 
-    margin-top: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-x: hidden !important; 
+    /* 修复底部空白 */
+    margin-bottom: 0 !important;
   }
   
-  /* 强制全局新罗马字体 */
+  /* 全局强制新罗马字体 */
   body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Latin Modern', Georgia, serif !important;
   }
   
+  /* 标题样式 */
   .section-title {
     font-size: 22px !important;
     color: #d85c27 !important;
@@ -32,66 +32,60 @@
   }
 
   /* ==================================================
-     2. 全局容器优化
+     2. 电脑端布局 (宽屏)
      ================================================== */
   
   .page__inner-wrap {
-    width: 96% !important;
+    width: 98% !important; /* 让内容更宽 */
     max-width: 100% !important;
     margin: 0 auto !important;
     padding: 20px 0 0 0 !important; 
   }
 
-  /* ==================================================
-     3. 核心布局 (Flexbox)
-     ================================================== */
-  
   #main {
     display: flex !important;
     flex-direction: row !important;
     align-items: flex-start !important;
     justify-content: flex-start !important;
     width: 100% !important;
-    gap: 40px !important; 
+    /* 【修改点】：间距从40px减半为20px，解决“左右太宽” */
+    gap: 20px !important; 
   }
 
-  /* ==================================================
-     4. 左侧侧边栏 (Sidebar) - 电脑端配置
-     ================================================== */
-  
+  /* --- 电脑端侧边栏 --- */
   .sidebar {
     position: -webkit-sticky !important;
     position: sticky !important;
     top: 20px !important;
-    
-    /* 【修改点】：宽度由 260px 改小为 220px */
     width: 220px !important;
     min-width: 220px !important;
     height: fit-content !important;
-    
     z-index: 999 !important; 
     text-align: center !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
+  /* 电脑端头像 */
+  .author__avatar img {
+    margin: 0 auto 10px auto !important;
+    display: block !important;
+    max-width: 180px !important;
+  }
+  
+  /* 名字下方的间距 */
   .author__name {
     margin-bottom: 40px !important; 
     display: block !important;
   }
 
-  .author__avatar img {
-    margin: 0 auto 10px auto !important;
-    display: block !important;
-    max-width: 180px !important; /* 电脑端头像大小 */
-  }
-  
   .sidebar .author__content,
   .sidebar .author__urls-wrapper {
     width: 100% !important;
     text-align: center !important;
   }
 
+  /* 链接图标 */
   .author__urls.social-icons {
     display: inline-block !important;
     position: relative !important;
@@ -105,16 +99,14 @@
     padding: 5px 0 !important; 
   }
 
-  /* ==================================================
-     5. 右侧内容 (Archive)
-     ================================================== */
-  
+  /* --- 电脑端右侧内容 --- */
   .archive {
     flex: 1 !important;     
     min-width: 0 !important;   
     width: auto !important;    
     margin-top: 0 !important;
-    padding-right: 20px !important; 
+    /* 右侧留白 */
+    padding-right: 10px !important; 
   }
 
   .archive p {
@@ -123,13 +115,13 @@
   }
 
   /* ==================================================
-     6. 手机端适配 (大幅修改部分)
+     3. 手机端适配 (强力修复版)
      ================================================== */
   
   @media screen and (max-width: 900px) {
     #main {
       flex-direction: column !important;
-      gap: 0 !important; /* 去掉间距，让头部紧贴内容 */
+      gap: 0 !important;
     }
     
     .page__inner-wrap {
@@ -137,53 +129,51 @@
       width: 100% !important;
     }
 
-    /* 【修改点】：手机端侧边栏变为置顶固定 */
+    /* --- 手机端侧边栏 (置顶固定) --- */
     .sidebar {
       position: -webkit-sticky !important;
       position: sticky !important;
-      top: 0 !important; /* 紧贴顶部 */
-      
+      top: 0 !important;
       width: 100% !important;
-      min-width: 0 !important;
-      margin-bottom: 0 !important;
-      padding-top: 10px !important;
+      margin: 0 !important;
+      padding: 10px 0 5px 0 !important; /* 调整内边距 */
       
-      /* 关键：加上白色背景和阴影，防止透明 */
-      background: white !important; 
+      /* 白色背景防止透视 */
+      background: #ffffff !important; 
       border-bottom: 1px solid #eee !important;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
-      z-index: 9999 !important; /* 确保在最上层 */
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1) !important;
+      z-index: 99999 !important; /* 超高层级，防止被遮挡 */
+      
+      /* 强制 Flex 布局让内部元素垂直居中 */
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
     }
 
-    /* 【修改点】：强制显示头像，但缩小尺寸 */
-    .author__avatar {
+    /* --- 手机端头像 (核心修复) --- */
+    /* 强制针对图片标签进行修复 */
+    div.sidebar .author__avatar,
+    div.sidebar .author__avatar img {
       display: block !important;
-    }
-    .author__avatar img {
-      max-width: 80px !important; /* 手机上缩小头像，不然太占地 */
+      visibility: visible !important;
+      opacity: 1 !important; /* 防止透明 */
+      height: auto !important;
+      width: 80px !important; /* 强制给个宽度 */
+      max-width: 80px !important;
+      min-width: 80px !important;
       border-radius: 50% !important;
-      margin-bottom: 5px !important;
+      margin: 0 auto 5px auto !important;
+      z-index: 100000 !important; /* 确保图片在最上层 */
     }
 
+    /* 名字样式 */
     .author__name {
-      margin-bottom: 5px !important; /* 减小名字下方的间距 */
-      font-size: 18px !important;
+      margin-bottom: 5px !important;
+      font-size: 20px !important;
+      line-height: 1.2 !important;
     }
 
-    /* 【修改点】：隐藏个人简介文字，手机头部只保留核心信息 */
+    /* 隐藏手机上不重要的简介，避免挡视线 */
     .author__bio {
-      display: none !important;
-    }
-
-    /* 图标横向排列 */
-    .author__urls.social-icons li {
-      display: inline-block !important;
-      margin: 0 5px !important;
-    }
-
-    .archive {
-      padding: 20px 15px !important;
-      padding-right: 15px !important; /* 恢复右侧padding */
-    }
-  }
-</style>
+      display: none !important
