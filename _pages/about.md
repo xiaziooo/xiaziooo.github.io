@@ -20,7 +20,7 @@ layout: archive  # <--- 修改此处，原为 'single'
 
 <span style="font-family: 'Latin Modern', Georgia, serif;"> I am a Professor in the School of Cyberspace Security at Hainan University, where I serve as an Academic Leader and Ph.D. Supervisor. I joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. I have led multiple research projects funded by the National Natural Science Foundation of China (NSFC), including a Key Program of the Joint Fund, a General Program, and a Young Scientist Program. I received my Ph.D. in Computer Science from Anhui University (2014–2017) and my M.S. in Computer Science from Jiangsu University (2006–2009). I also studied as a Visiting Scholar in the School of Computing at the University of Utah, USA (2016–2017).[[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ)  [[中文版主页]](https://scs.hainanu.edu.cn/info/1051/5382.htm)
 
-**Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested. 
+<span style="font-family: 'Latin Modern', Georgia, serif">**Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested.</span>
 
 **Contact (email address)**: xiafeng@hainanu.edu.cn
 
