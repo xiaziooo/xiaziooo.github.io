@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "image111.jpg"
+  avatar           : "Image111.jpg"
   name             : "Feng Xia"
   
   location         : "Hai Kou,HaiNan,China"
