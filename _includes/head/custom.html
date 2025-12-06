@@ -1,91 +1,107 @@
 <style>
-  /* =========================================
-     1. 让页面平铺整个屏幕 (去除左右大留白)
-     ========================================= */
+  /* ==================================================
+     1. 全局容器解锁：让页面变宽，平铺全屏
+     ================================================== */
   
-  /* 也就是打破默认的 max-width 限制 */
+  /* 解除原本主题对宽度的死板限制 */
   .page__inner-wrap {
-    max-width: 100% !important; /* 强制占满宽屏 */
-    padding-left: 2rem !important; /* 保留一点点呼吸感，别贴着屏幕边缘 */
-    padding-right: 2rem !important;
+    max-width: 95% !important; /* 占据屏幕 95% 的宽度 */
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 !important;
   }
 
-  /* 顶部的导航栏也要跟着变宽，否则会对不齐 */
-  .masthead__inner-wrap {
-    max-width: 100% !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+  /* ==================================================
+     2. 核心布局重构：使用 Flexbox (弹性盒子)
+     这是解决“乱跑”的关键
+     ================================================== */
+  
+  #main {
+    display: flex !important;           /* 开启弹性布局 */
+    flex-direction: row !important;     /* 电脑上横向排列 */
+    justify-content: center !important; /* 整体居中 */
+    align-items: flex-start !important; /* 顶部对齐 */
+    width: 100% !important;
   }
 
-  /* =========================================
-     2. 侧边栏 (Sidebar) 样式调整
-     ========================================= */
+  /* ==================================================
+     3. 侧边栏 (Sidebar) 定制
+     ================================================== */
   
   .sidebar {
-    /* 往下挪一点 */
-    margin-top: 50px !important; 
+    /* 宽度控制 */
+    width: 300px !important;   /* 给个固定宽度，防止忽胖忽瘦 */
+    min-width: 300px !important;
+    flex-shrink: 0 !important; /* 禁止侧边栏被挤压变形 */
     
-    /* 内容左右居中 */
-    text-align: center !important;
+    /* 位置控制 */
+    margin-top: 80px !important;   /* 【需求】往下挪一点 */
+    margin-right: 60px !important; /* 【需求】离右边内容远一点 (Padding) */
+    
+    /* 样式重置 */
+    float: none !important;    /* 禁用原来的浮动，防止乱跑 */
+    text-align: center !important; /* 【需求】内容左右居中 */
+    padding: 0 !important;
   }
 
-  /* 让头像图片也居中 (因为图片默认是行内元素或块级元素，需要特殊处理) */
-  .author__avatar img {
-    margin: 0 auto !important;
+  /* 强制侧边栏里的头像、文字全部居中 */
+  .sidebar .author__avatar img,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
     display: block !important;
   }
-
-  /* 侧边栏里的文字内容居中 */
-  .author__content, 
-  .author__urls-wrapper {
-    text-align: center !important;
-  }
   
-  /* 调整关注按钮和图标列表的居中 */
+  /* 修复图标列表的对齐 */
   .author__urls.social-icons {
-    text-align: center !important;
-    padding-left: 0 !important; /* 去掉列表默认的左缩进 */
+    display: inline-block !important; /* 让列表紧凑居中 */
   }
+
+  /* ==================================================
+     4. 右侧主要内容 (Archive) 定制
+     ================================================== */
   
-  /* 让图标列表里的每一项也居中显示 */
-  .author__urls.social-icons li {
-    display: block !important; /* 或者是 inline-block */
-    text-align: center !important;
+  .archive {
+    flex-grow: 1 !important;   /* 自动占满剩下的所有空间 */
+    max-width: 100% !important;
+    float: none !important;    /* 禁用浮动 */
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    width: auto !important;    /* 自动适应宽度 */
   }
 
-  /* =========================================
-     3. 增加侧边栏与右侧内容的间距
-     ========================================= */
+  /* ==================================================
+     5. 手机端/小屏幕 完美适配 (Mobile Responsive)
+     【需求】手机上等比例缩放，不乱跑
+     ================================================== */
   
-  /* 针对右侧的主内容区域 */
-  .archive, .page__content, #main > div:not(.sidebar) {
-    /* 左侧增加内边距，把它往右推 */
-    padding-left: 5rem !important; 
-    
-    /* 如果你想让右侧内容也尽量宽，可以把宽度设大 */
-    width: 75% !important; /* 剩下的25%给侧边栏 */
-  }
-
-  /* 如果屏幕特别宽，可能需要限制侧边栏不要太宽 */
-  .sidebar {
-    width: 20% !important; /* 侧边栏占 20% */
-  }
-
-  /* =========================================
-     4. 手机端适配 (必须加，否则手机上会乱)
-     ========================================= */
-  @media (max-width: 768px) {
-    .page__inner-wrap, .masthead__inner-wrap {
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
+  @media screen and (max-width: 900px) {
+    /* 屏幕变窄时，改为垂直排列 */
+    #main {
+      flex-direction: column !important; /* 上下排列 */
+      align-items: center !important;    /* 居中对齐 */
     }
-    .archive, .page__content {
-      padding-left: 0 !important; /* 手机上取消左侧强推间距 */
-      width: 100% !important;
-    }
+
     .sidebar {
+      width: 100% !important;   /* 手机上侧边栏占满宽度 */
+      min-width: 0 !important;
+      margin-right: 0 !important;
+      margin-top: 20px !important; /* 手机上不需要空那么多头 */
+      margin-bottom: 40px !important; /* 和下面内容的间距 */
+      position: static !important; /* 手机上取消固定定位，防止遮挡 */
+    }
+
+    .archive {
       width: 100% !important;
-      margin-top: 0 !important;
+      padding: 0 20px !important; /* 手机上两边留点缝隙，好看 */
+    }
+    
+    /* 字体等比例适配 */
+    body {
+      font-size: 16px !important; /* 保证手机上字号合适 */
     }
   }
 </style>
