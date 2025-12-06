@@ -25,6 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Feng Xia"
+  
   location         : "Hai Kou,HaiNan,China"
   employer         : "Hai Nan University"
   email            : "xiafeng@hainanu.edu.cn" 
@@ -32,13 +33,12 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : ""
+  googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  中文主页          :"https://scs.hainanu.edu.cn/info/1051/5382.html"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
