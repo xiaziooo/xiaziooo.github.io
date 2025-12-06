@@ -64,7 +64,8 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 1.08em;     // ✅ 学术阅读最舒服尺寸
+    line-height: 1.85;    // ✅ 论文级行距
   }
 
   /* paragraph indents */
