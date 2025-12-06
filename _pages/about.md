@@ -1,48 +1,62 @@
----
 permalink: /
-
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+redirect_from:
+
+/about/
+
+/about.html
+
 <style>
-/* 这里是 CSS 样式，用于复刻 minghuixu.com 的视觉风格 */
-body, .markdown-body {
-font-family: 'Latin Modern', Georgia, 'Times New Roman', serif;
-font-size: 18px;
-line-height: 1.6;
-color: #333;
+/* 强制覆盖主题默认字体 - 使用 !important 提高优先级 */
+body, .page__content, .archive, .markdown-body {
+font-family: 'Latin Modern', Georgia, 'Times New Roman', 'Noto Serif CJK SC', serif !important;
+font-size: 18px !important;
+line-height: 1.7 !important;
+color: #333 !important;
 }
 
-/* 橙色标题风格 /
+/* 强制修改标题颜色为橙色 - 模仿目标网站 /
 h1, h2, h3 {
-font-family: 'Latin Modern', Georgia, 'Times New Roman', serif;
-color: #d85c27; / 目标网站的橙色 */
-border-bottom: 1px solid #eaecef;
-padding-bottom: 0.3em;
-margin-top: 1.5em;
-margin-bottom: 0.5em;
+font-family: 'Latin Modern', Georgia, 'Times New Roman', serif !important;
+color: #d85c27 !important; / 目标橙色 */
+border-bottom: 1px solid #eaecef !important;
+padding-bottom: 0.3em !important;
+margin-top: 1.5em !important;
+margin-bottom: 0.5em !important;
+font-weight: bold !important;
+}
+
+/* 针对第一级大标题（你的名字）特殊调整 /
+h1 {
+font-size: 2.2em !important;
+border-bottom: none !important; / 名字下面去掉下划线，或者保留看你喜好 */
+margin-top: 0.5em !important;
 }
 
 /* 链接颜色 */
 a {
-color: #4183c4;
-text-decoration: none;
+color: #4183c4 !important;
+text-decoration: none !important;
 }
 a:hover {
-text-decoration: underline;
+text-decoration: underline !important;
 }
 
-/* 强调文字 */
+/* 列表和段落间距 /
+p, li {
+margin-bottom: 0.8em !important;
+text-align: justify; / 两端对齐，看起来更学术 */
+}
+
+/* 强调文字（加粗） */
 strong {
-font-weight: bold;
-color: #000;
+font-weight: bold !important;
+color: #000 !important;
 }
 
-/* 列表样式调整 */
-li {
-margin-bottom: 0.5em;
+/* 调整列表样式，防止主题自带的小圆点和我们的冲突 */
+ul, ol {
+margin-left: 1.5em !important;
 }
 </style>
 
@@ -68,13 +82,22 @@ Work Experience
 
 Professor, School of Cyberspace Security, Hainan University
 
+
+
+
 Aug 2024 – Present
 
 Assistant Professor, Faculty of Science, City University of Macau
 
+
+
+
 Aug 2022 – Aug 2024
 
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University
+
+
+
 
 Aug 2017 – Jul 2022
 
@@ -125,20 +148,18 @@ Feng X, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for priva
 Patents
 
 Shi Qichen, Feng Xia, et al.
-
 A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.
 
 Feng Xia, Cui Kaiping, et al.
-
 A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Blockchain-Based Vehicular Networks; CN112134698A; Granted.
 
 Feng Xia, Cui Kaiping, et al.
-
 An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.
 
 Books
 
-Theory and Methods of Traffic Big Data Xia Feng, Yuexia Chen, Chao Sun
+Theory and Methods of Traffic Big Data
+Xia Feng, Yuexia Chen, Chao Sun
 
 Standards Development
 
@@ -148,27 +169,37 @@ Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 0
 
 Grants
 
-Secure Collaborative Computing Methods for Vehicle–Road–Network–Cloud Systems Supporting Autonomous Driving Joint Funds of the National Natural Science Foundation of China Key Program (No.U24A20238), PI, 2025.01-2028.12
+Secure Collaborative Computing Methods for Vehicle–Road–Network–Cloud Systems Supporting Autonomous Driving
+Joint Funds of the National Natural Science Foundation of China Key Program (No.U24A20238), PI, 2025.01-2028.12
 
-Privacy-Aware Crowdsourced Service Architecture and Key Technologies for Traffic Big Data National Natural Science Foundation of China General Program (No.62272203), PI, 2023.01-2026.12
+Privacy-Aware Crowdsourced Service Architecture and Key Technologies for Traffic Big Data
+National Natural Science Foundation of China General Program (No.62272203), PI, 2023.01-2026.12
 
-Trusted Management Platform for Huilong Logistics Trading System Contract Research Project, PI, 2022.01-2022.12
+Trusted Management Platform for Huilong Logistics Trading System
+Contract Research Project, PI, 2022.01-2022.12
 
-Intrusion-Tolerant Privacy Assessment Methods in Heterogeneous Vehicular Networks National Natural Science Foundation of China Young Scientists Fund (No.61902157), PI, 2020.01-2022.12
+Intrusion-Tolerant Privacy Assessment Methods in Heterogeneous Vehicular Networks
+National Natural Science Foundation of China Young Scientists Fund (No.61902157), PI, 2020.01-2022.12
 
-Privacy Assessment Methods in Vehicular Networks China Postdoctoral Science Foundation (No.2019M661753), PI, 2020.01-2021.12
+Privacy Assessment Methods in Vehicular Networks
+China Postdoctoral Science Foundation (No.2019M661753), PI, 2020.01-2021.12
 
-Identity-Based Security Mechanisms and System Evaluation Methods in VANETs National Natural Science Foundation of China General Program (No. 61472001), Co-PI (Second Major Contributor), 2015.01-2018.12
+Identity-Based Security Mechanisms and System Evaluation Methods in VANETs
+National Natural Science Foundation of China General Program (No. 61472001), Co-PI (Second Major Contributor), 2015.01-2018.12
 
-Security Convergence Technologies for Heterogeneous Networks in Vehicular Networks Jiangsu Province Key Research and Development Program (No.BE2015136), Co-PI (Second Major Contributor), 2015.06-2018.06
+Security Convergence Technologies for Heterogeneous Networks in Vehicular Networks
+Jiangsu Province Key Research and Development Program (No.BE2015136), Co-PI (Second Major Contributor), 2015.06-2018.06
 
 Awards
 
-Key Technologies for Security Convergence in Heterogeneous IoT and Their Industrial Applications Second Prize of Jiangsu Province Science and Technology Progress Award (2019-2-8-R9), 2020, Ranked 9th.
+Key Technologies for Security Convergence in Heterogeneous IoT and Their Industrial Applications
+Second Prize of Jiangsu Province Science and Technology Progress Award (2019-2-8-R9), 2020, Ranked 9th.
 
-Research and Application of Key Technologies for Driver Assistance and Information Security Protection Based on Human–Vehicle–Road Collaboration First Prize of the China Highway & Transportation Society Science and Technology Award (B16-1-021-005), 2017, Ranked 5th.
+Research and Application of Key Technologies for Driver Assistance and Information Security Protection Based on Human–Vehicle–Road Collaboration
+First Prize of the China Highway & Transportation Society Science and Technology Award (B16-1-021-005), 2017, Ranked 5th.
 
-Key Technologies of Maritime Wireless Networks and Their Demonstration Application in the Zhenjiang Section of the Yangtze River Second Prize of the Zhenjiang Science and Technology Progress Award, 2014, Ranked 5th.
+Key Technologies of Maritime Wireless Networks and Their Demonstration Application in the Zhenjiang Section of the Yangtze River
+Second Prize of the Zhenjiang Science and Technology Progress Award, 2014, Ranked 5th.
 
 Professional Service
 
@@ -185,4 +216,3 @@ Professional Activities
 Expert Reviewer for Talent Programs, Ministry of Education of China
 
 Expert Reviewer for Research Proposals, National Natural Science Foundation of China
-
