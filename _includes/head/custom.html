@@ -1,105 +1,102 @@
 <style>
   /* ==================================================
-     1. 容器重置：强制占满整个屏幕宽度
+     1. 解决“左右Margin太大”：强制撑开页面宽度
      ================================================== */
   
-  /* 也就是最外层的壳子，不能让它限制宽度 */
+  /* 解除原来的宽度限制 */
   .page__inner-wrap {
-    width: 100% !important;
-    max-width: 100% !important; /* 核心：撑开全屏 */
-    padding: 0 40px !important; /* 左右稍微留点缝，别贴死屏幕边 */
-    margin: 0 !important;
-  }
-
-  /* 主布局容器：开启 Flex 模式 */
-  #main {
-    display: flex !important;           /* 开启弹性盒子 */
-    flex-direction: row !important;     /* 横向排列：左边是侧边栏，右边是内容 */
-    align-items: flex-start !important; /* 顶部对齐 */
-    justify-content: flex-start !important; /* 从左边开始排，不要居中！ */
-    width: 100% !important;
+    width: 98% !important;        /* 几乎占满全屏，左右留一点点缝隙好看 */
+    max-width: 100% !important;   /* 覆盖原来可能有的 1280px 限制 */
+    margin: 0 auto !important;    /* 整体居中 */
+    padding: 0 10px !important;   /* 极小的左右内边距 */
   }
 
   /* ==================================================
-     2. 左侧：侧边栏 (Sidebar)
-     要求：在左边，内部居中，离顶部有距离
+     2. 布局核心：Flexbox
+     这是让左侧能“固定”的前提条件
+     ================================================== */
+  
+  #main {
+    display: flex !important;           /* 开启弹性布局 */
+    flex-direction: row !important;     /* 左右排列 */
+    justify-content: flex-start !important;
+    align-items: flex-start !important; /* 关键：顶部对齐，否则Sticky失效 */
+    width: 100% !important;
+    gap: 30px !important;               /* 左栏和右栏之间的间距 */
+  }
+
+  /* ==================================================
+     3. 左侧栏：实现“滑动时保持不动” (Sticky)
      ================================================== */
   
   .sidebar {
-    /* 宽度设置：你可以把 25% 改成你想要的像素，例如 300px */
-    width: 15% !important;      
-    min-width: 250px !important; /* 保证最小宽度，别太窄 */
+    /* --- 固定定位的核心代码 --- */
+    position: -webkit-sticky !important; /* Safari 兼容 */
+    position: sticky !important;
+    top: 20px !important;                /* 距离浏览器顶部的距离 */
+    z-index: 10 !important;              /* 保证它浮在其他层级之上 */
     
-    /* 位置设置 */
-    margin-top: 80px !important;    /* 距离顶部的距离 */
-    margin-right: 50px !important;  /* 侧边栏和右侧内容的间距 */
+    /* --- 尺寸和样式 --- */
+    width: 280px !important;             /* 给个固定宽度，或者用 20% */
+    min-width: 280px !important;
+    height: fit-content !important;      /* 关键：高度由内容决定，不要撑满 */
     
-    /* 内部对齐：让头像和字在“左侧这一栏”里居中 */
-    text-align: center !important; 
-    
-    /* 清除干扰样式 */
-    float: none !important;
-    position: relative !important; /* 先取消 sticky，防止定位干扰布局 */
+    /* --- 内部居中 --- */
+    text-align: center !important;
+    margin-right: 0 !important;          /* 间距由 #main 的 gap 控制 */
+    margin-top: 40px !important;         /* 初始距离顶部的空隙 */
   }
 
-  /* 强制头像图片居中 */
+  /* 强制头像和文字居中 */
   .author__avatar img {
     margin: 0 auto !important; 
     display: block !important;
   }
-
-  /* 强制侧边栏内所有内容块居中 */
+  
   .sidebar .author__content,
   .sidebar .author__urls-wrapper {
-    width: 100% !important;
     text-align: center !important;
+    width: 100% !important;
   }
   
-  /* 修复图标列表居中 */
+  /* 图标列表居中 */
   .author__urls.social-icons {
     display: inline-block !important;
   }
 
   /* ==================================================
-     3. 右侧：文献块 (Archive)
-     要求：占满剩余所有空间
+     4. 右侧内容：占满剩余空间
      ================================================== */
   
   .archive {
-    /* 核心：flex: 1 代表“剩余空间全给我” */
-    flex: 1 !important;  
-    
-    /* 样式重置 */
-    width: auto !important; 
-    max-width: none !important; /* 解除最大宽度限制 */
-    float: none !important;
+    flex: 1 !important;        /* 霸占剩余的所有宽度 */
+    min-width: 0 !important;   /* 防止内容过宽撑破布局 */
     margin-top: 0 !important;
-    padding-right: 20px !important; /* 右边留点呼吸感 */
+    padding-right: 10px !important;
   }
 
   /* ==================================================
-     4. 手机端适配
+     5. 手机端适配 (必须要有)
+     手机上不能固定左侧，否则也没法看内容了
      ================================================== */
+  
   @media screen and (max-width: 900px) {
     #main {
-      flex-direction: column !important; /* 改为上下排列 */
-      align-items: center !important;    /* 整体居中 */
+      flex-direction: column !important; /* 变回上下排列 */
+      gap: 0 !important;
     }
 
     .sidebar {
+      position: static !important; /* 手机上取消固定效果 */
       width: 100% !important;
-      margin-right: 0 !important;
+      min-width: 0 !important;
       margin-top: 20px !important;
-      margin-bottom: 40px !important;
+      margin-bottom: 30px !important;
     }
 
-    .archive {
-      width: 100% !important;
-      padding: 0 10px !important;
-    }
-    
     .page__inner-wrap {
-      padding: 0 10px !important; /* 手机上边距改小 */
+      width: 100% !important;
+      padding: 0 15px !important;
     }
   }
 </style>
