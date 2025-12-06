@@ -1,6 +1,6 @@
 <style>
   /* ==================================================
-     1. 全局安全设置 (基础)
+     1. 全局基础安全设置
      ================================================== */
   body {
     background-color: #ffffff !important;
@@ -9,7 +9,7 @@
     overflow-x: hidden !important; 
   }
 
-  /* 全局强制新罗马字体 */
+  /* 强制全局字体 */
   body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Latin Modern', Georgia, serif !important;
   }
@@ -30,8 +30,8 @@
   }
 
   /* ==================================================
-     2. 电脑端 (PC) - 保持你觉得完美的状态
-     (仅在屏幕宽度大于 900px 时生效)
+     2. 电脑端 (PC) - 完美保持原样
+     (屏幕宽度 > 900px 时生效)
      ================================================== */
   @media screen and (min-width: 901px) {
     .page__inner-wrap {
@@ -83,8 +83,8 @@
   }
 
   /* ==================================================
-     3. 手机端 (Mobile) - 深度定制版
-     (仅在屏幕宽度小于 900px 时生效)
+     3. 手机端 (Mobile) - 极简信息版
+     (屏幕宽度 <= 900px 时生效)
      ================================================== */
   @media screen and (max-width: 900px) {
     
@@ -103,8 +103,7 @@
       margin: 0 !important;
     }
 
-    /* --- 侧边栏：核心改造 (使用 Grid 布局) --- */
-    /* 目标：左边是[头像+名字]，右边是[邮箱+地址] */
+    /* --- 侧边栏：Grid 布局 (左窄右宽) --- */
     .sidebar {
       position: -webkit-sticky !important;
       position: sticky !important;
@@ -113,45 +112,41 @@
       width: 100% !important;
       margin: 0 !important;
       
-      /* 高度压缩：减少 padding */
-      padding: 8px 5px !important; 
+      /* 【修改点】：高度极限压缩，上下只留 5px */
+      padding: 5px !important; 
       
       background: white !important;
       border-bottom: 1px solid #ddd !important;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
       z-index: 99999 !important;
       
-      /* 开启 Grid 网格布局 */
+      /* Grid 布局：左列 70px，右列自动 */
       display: grid !important;
-      /* 定义两列：左列固定80px，右列自动填满剩余空间 */
-      grid-template-columns: 80px 1fr !important;
-      /* 定义两行：用于左侧头像和名字的堆叠 */
+      grid-template-columns: 70px 1fr !important;
       grid-template-rows: auto auto !important;
-      align-items: center !important; /* 垂直居中 */
-      column-gap: 10px !important;    /* 左右两列的间距 */
+      align-items: center !important; 
+      column-gap: 5px !important;
     }
 
-    /* --- 左下角区域：头像 (Grid位置: 第1列, 跨越2行) --- */
-    /* 这里的逻辑稍微调整：让头像在左上，名字在左下 */
-    
+    /* --- 左侧：头像 (更小) --- */
     .author__avatar {
-      grid-column: 1 !important; /* 第一列 */
-      grid-row: 1 !important;    /* 第一行 */
+      grid-column: 1 !important;
+      grid-row: 1 !important;
       margin: 0 !important;
-      padding: 0 !important;
       display: block !important;
     }
 
     .author__avatar img {
       display: block !important;
-      width: 50px !important;       /* 头像改小，节省空间 */
-      max-width: 50px !important;
-      height: 50px !important;
+      /* 【修改点】：头像缩小到 45px */
+      width: 45px !important;       
+      max-width: 45px !important;
+      height: 45px !important;
       border-radius: 50% !important;
-      margin: 0 auto !important;    /* 在左侧小格子里居中 */
+      margin: 0 auto !important;
     }
 
-    /* --- 左下角区域：名字 (Grid位置: 第1列, 第2行) --- */
+    /* --- 左侧：名字 (更紧凑) --- */
     .author__content {
       grid-column: 1 !important;
       grid-row: 2 !important;
@@ -160,70 +155,83 @@
     }
     
     .author__name {
-      margin: 2px 0 0 0 !important; /* 名字紧贴头像 */
-      font-size: 13px !important;   /* 字体改小 */
+      margin: 2px 0 0 0 !important;
+      /* 【修改点】：字体缩小，防止换行 */
+      font-size: 12px !important;   
       line-height: 1.2 !important;
-      white-space: nowrap !important; /* 防止名字换行 */
+      white-space: nowrap !important;
+      font-weight: bold !important;
     }
 
-    /* --- 右侧区域：邮箱地址 (Grid位置: 第2列, 跨越2行) --- */
+    /* --- 右侧：纯文本信息列表 --- */
     .author__urls-wrapper {
-      grid-column: 2 !important;     /* 放在右边那一大块 */
-      grid-row: 1 / span 2 !important; /* 占满右边的高度 */
-      text-align: left !important;     /* 内容靠左对齐 */
-      padding-left: 5px !important;
-      border-left: 1px solid #eee !important; /* 加个分割线好看点 */
-    }
-
-    /* 右侧按钮隐藏 (太占地了，手机上只要看信息) */
-    .author__urls-wrapper button {
-      display: none !important; 
-    }
-
-    /* 右侧信息列表样式优化 */
-    .author__urls.social-icons {
-      margin: 0 !important;
-      padding: 0 !important;
+      grid-column: 2 !important;
+      grid-row: 1 / span 2 !important; /* 占满右侧高度 */
+      text-align: left !important;
+      padding-left: 10px !important;
+      border-left: 1px solid #eee !important; /* 加个分割线 */
+      
+      /* 强制 Flex 垂直居中 */
       display: flex !important;
-      flex-direction: column !important; /* 上下排列信息 */
+      flex-direction: column !important;
       justify-content: center !important;
     }
 
+    /* 【关键修改】：彻底隐藏 Follow 按钮 */
+    .author__urls-wrapper button,
+    .btn {
+      display: none !important;
+    }
+
+    /* 信息列表样式 */
+    .author__urls.social-icons {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: block !important; /* 块级显示，一行一个 */
+    }
+
     .author__urls.social-icons li {
-      display: block !important;
-      font-size: 12px !important; /* 信息字体改小 */
-      line-height: 1.4 !important;
-      margin: 2px 0 !important;
+      display: block !important; /* 强制换行，一行一个 */
+      font-size: 11px !important; /* 字号调小，防止太挤 */
+      line-height: 1.5 !important;
+      margin: 0 !important;
+      text-align: left !important;
       white-space: nowrap !important;
       overflow: hidden !important;
-      text-overflow: ellipsis !important; /* 太长就省略号 */
+      text-overflow: ellipsis !important; /* 太长自动省略 */
+      color: #333 !important;
+    }
+
+    /* 图标颜色和大小 */
+    .author__urls.social-icons i {
+      font-size: 11px !important;
+      width: 14px !important;
+      text-align: center !important;
+      margin-right: 4px !important;
+      color: #d85c27 !important;
+    }
+    
+    /* 链接文字颜色 */
+    .author__urls.social-icons a {
+      color: inherit !important;
+      text-decoration: none !important;
     }
 
     /* 隐藏 bio 简介 */
     .author__bio {
       display: none !important;
     }
-    
-    /* 隐藏 Email / Scholar 这些文字标签，只留图标和内容，不然太挤 */
-    /* 如果你想保留文字，把下面这段删掉 */
-    .author__urls.social-icons i {
-      font-size: 12px !important;
-      width: 16px !important;
-      text-align: center !important;
-      margin-right: 5px !important;
-      color: #d85c27 !important; /* 图标给点颜色 */
-    }
 
     /* --- 下方正文区域 --- */
     .archive {
-      padding: 15px 10px !important; /* 给正文留点空隙 */
+      /* 顶部 padding 小一点，因为上方盒子现在很薄 */
+      padding: 10px 10px !important; 
       width: 100% !important;
       box-sizing: border-box !important;
     }
     
-    /* 手机上标题稍微小一点 */
     .archive h1 {
-      margin-top: 10px !important;
+      margin-top: 5px !important;
       font-size: 1.4em !important;
     }
   }
