@@ -118,25 +118,25 @@
       white-space: nowrap !important;
     }
 
-    /* --- 右边：信息列表 (纯文字模式) --- */
     .author__urls-wrapper {
-      grid-column: 2 !important;
-      grid-row: 1 / span 2 !important;
-      
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      align-items: flex-start !important;
-      
-      /* 【核心修改】：去掉边框 */
-      border: none !important; 
-      /* 【核心修改】：去掉背景色 */
-      background: transparent !important;
-      
-      padding-left: 10px !important;
-      margin: 0 !important;
-      height: 100% !important;
-    }
+  grid-column: 2 !important;
+  grid-row: 1 / span 2 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+
+  /* ✅ 核心：改为“卡片块”风格 */
+  background: #fafafa !important;
+  border: 1px solid #eee !important;
+  border-radius: 10px !important;
+
+  padding: 8px 10px !important;
+  margin: 0 !important;
+
+  height: auto !important;
+}
 
     .author__urls-wrapper button { display: none !important; }
     .author__bio { display: none !important; }
@@ -151,32 +151,35 @@
     }
 
     .author__urls.social-icons li {
-      display: block !important;
-      background: transparent !important; /* 确保每一行无背景 */
-      border: none !important;            /* 确保每一行无边框 */
-      
-      font-size: 12px !important;
-      line-height: 1.5 !important;
-      margin: 1px 0 !important;
-      
-      white-space: nowrap !important;
-      overflow: hidden !important;
-      text-overflow: ellipsis !important;
-      text-align: left !important;
-    }
+  display: flex !important;
+  align-items: center !important;
+
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+
+  padding: 3px 0 !important;
+  margin: 0 !important;
+
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: left !important;
+}
+
     
     .author__urls.social-icons li a {
       color: #333 !important;
       text-decoration: none !important;
     }
-    
-    .author__urls.social-icons i {
-      width: 16px !important;
-      text-align: center !important;
-      margin-right: 5px !important;
-      color: #d85c27 !important;
-      display: inline-block !important;
-    }
+.author__urls.social-icons i {
+  flex: 0 0 16px !important;
+  width: 16px !important;
+  text-align: center !important;
+  margin-right: 6px !important;
+  color: #d85c27 !important;
+  display: inline-block !important;
+}
+
 
     /* 正文 */
     .archive {
