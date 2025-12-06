@@ -13,5 +13,21 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
-
+<style>
+  /* 去除页面主体顶部的额外间距 */
+  .page {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  /* 如果还有间隙，可能是因为 .initial-content 或者 body */
+  body {
+    padding-top: 0 !important;
+  }
+  
+  /* 有时候第一级标题本身也有很大的上边距 */
+  .page__title {
+    margin-top: 0 !important;
+  }
+</style>
 <!-- end custom head snippets -->
