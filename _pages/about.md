@@ -1,10 +1,18 @@
+---
+
 permalink: /
+
+
+
 author_profile: true
-redirect_from:
 
-/about/
+redirect_from: 
 
-/about.html
+  - /about/
+
+  - /about.html
+
+---
 
 <style>
 /* 强制覆盖主题默认字体 - 使用 !important 提高优先级 */
