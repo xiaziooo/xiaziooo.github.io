@@ -42,14 +42,14 @@
   }
 
   /* ==================================================
-     3. 手机端 (Mobile) - 对齐修正版 (900px以下)
+     3. 手机端 (Mobile) - 强制显示修复版 (900px以下)
      ================================================== */
   @media screen and (max-width: 900px) {
     
     .page__inner-wrap { width: 100% !important; padding: 0 !important; margin: 0 !important; }
     #main { display: flex !important; flex-direction: column !important; gap: 0 !important; margin: 0 !important; }
 
-    /* --- 盒子1 (Sidebar 外壳) --- */
+    /* --- Sidebar 盒子 --- */
     .sidebar {
       position: -webkit-sticky !important;
       position: sticky !important;
@@ -57,31 +57,23 @@
       width: 100% !important;
       margin: 0 !important;
       padding: 0 !important;
-      
       background: white !important;
       border-bottom: 1px solid #ddd !important;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
       z-index: 99999 !important;
-      
       height: auto !important;
-      /* 稍微放松一点最小高度，避免太挤 */
       min-height: 75px !important; 
     }
 
-    /* --- 内部 Grid 布局 --- */
+    /* --- 内部布局 --- */
     .sidebar > div {
       display: grid !important;
-      /* 左列 70px，右列自适应 */
       grid-template-columns: 70px 1fr !important;
-      /* 让两行高度紧缩 */
       grid-template-rows: auto auto !important;
       column-gap: 8px !important;
-      
       width: 100% !important;
       padding: 8px 10px !important;
       box-sizing: border-box !important;
-      
-      /* 【核心】：让整个 Grid 的内容垂直居中 */
       align-items: center !important;
       align-content: center !important;
     }
@@ -90,33 +82,29 @@
     .author__avatar {
       grid-column: 1 !important;
       grid-row: 1 !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      text-align: center !important;
-      
-      /* 【技巧】：头像靠下，贴近名字 */
       align-self: end !important; 
       display: block !important;
+      margin: 0 !important; padding: 0 !important;
     }
 
     .author__avatar img {
       display: block !important;
-      width: 46px !important; /* 稍微再改小一点点，适配右边高度 */
+      width: 46px !important;
       height: 46px !important;
       border-radius: 50% !important;
       margin: 0 auto !important;
+      visibility: visible !important; /* 强制可见 */
+      opacity: 1 !important;
     }
 
     /* --- 左边：名字 --- */
     .author__content {
       grid-column: 1 !important;
       grid-row: 2 !important;
+      align-self: start !important; 
       text-align: center !important;
       padding: 0 !important;
       margin-top: 2px !important;
-      
-      /* 【技巧】：名字靠上，贴近头像 */
-      align-self: start !important; 
     }
     
     .author__name {
@@ -124,69 +112,76 @@
       line-height: 1.2 !important;
       margin: 0 !important;
       white-space: nowrap !important;
+      visibility: visible !important;
     }
 
-    /* --- 右边：信息列表 (垂直居中修正) --- */
+    /* --- 右边：信息列表 (核心修复区域) --- */
     .author__urls-wrapper {
       grid-column: 2 !important;
-      grid-row: 1 / span 2 !important; /* 占满两行 */
+      grid-row: 1 / span 2 !important;
       
+      /* 强制 Flex 布局 */
       display: flex !important;
       flex-direction: column !important;
-      /* 【核心】：强制内容在右侧区域垂直居中 */
-      justify-content: center !important; 
+      justify-content: center !important;
       align-items: flex-start !important;
       
       border: none !important;
       background: transparent !important;
-      
       padding-left: 10px !important;
       margin: 0 !important;
-      height: 100% !important; /* 撑满高度，才有空间居中 */
+      height: 100% !important;
+      
+      /* 【修复】：确保容器本身可见 */
+      visibility: visible !important;
+      opacity: 1 !important;
     }
 
+    /* 隐藏按钮 */
     .author__urls-wrapper button { display: none !important; }
     .author__bio { display: none !important; }
 
+    /* 【修复】：强制显示 ul 列表 */
     .author__urls.social-icons {
-      width: 100% !important;
-      margin: 0 !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
       padding: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      height: auto !important;
     }
 
-    .author__urls.social-icons li {
-      display: flex !important; /* 使用 Flex 对齐图标和文字 */
+    /* 【修复】：强制显示所有 li，包括可能被主题标记为 desktop-only 的项 */
+    .author__urls.social-icons li,
+    .author__urls.social-icons li.author__desktop {
+      display: flex !important; /* 强制显示！ */
+      visibility: visible !important;
       align-items: center !important;
       
-      /* 【核心】：压缩行高，让右侧块不要太大 */
-      font-size: 11px !important; 
-      line-height: 1.4 !important; 
+      font-size: 11px !important;
+      line-height: 1.4 !important;
       margin: 1px 0 !important;
       
       background: transparent !important;
       border: none !important;
       text-align: left !important;
     }
-
-    /* 链接文字截断处理 */
-    .author__urls.social-icons li a,
-    .author__urls.social-icons li span {
-      display: inline-block !important;
-      white-space: nowrap !important;
-      overflow: hidden !important;
-      text-overflow: ellipsis !important;
-      max-width: 100% !important;
+    
+    .author__urls.social-icons li a {
       color: #333 !important;
       text-decoration: none !important;
+      display: inline-block !important; /* 防止文字消失 */
     }
     
     .author__urls.social-icons i {
-      /* 固定图标宽度，防漂移 */
-      flex-shrink: 0 !important;
-      width: 16px !important; 
+      flex-shrink: 0 !important; /* 防止图标被压缩消失 */
+      width: 16px !important;
       text-align: center !important;
       margin-right: 4px !important;
       color: #d85c27 !important;
+      display: inline-block !important;
+      visibility: visible !important;
     }
 
     /* 正文 */
