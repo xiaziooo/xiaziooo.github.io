@@ -11,7 +11,19 @@
     margin-top: 0 !important;
     overflow-x: hidden !important; /* 防止横向滚动条 */
   }
-
+/* 强制整个网页内容区域使用新罗马字体 */
+  body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Latin Modern', Georgia, serif !important;
+  }
+  /* 专门针对 "Profile", "Research Interests" 这种小标题的颜色类 */
+  .section-title {
+    font-size: 22px !important;
+    color: #d85c27 !important;
+    font-weight: bold !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    display: block !important;
+  }
   .page__footer {
     /* 让页脚乖乖呆在最下面，不要乱飘 */
     position: static !important;
