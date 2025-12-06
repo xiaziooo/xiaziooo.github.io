@@ -49,6 +49,13 @@
 }
 
 .page__content {
+   blockquote {
+     margin: 1.5em 0;
+     padding: 1em 1.5em;
+     border-left: 4px solid var(--global-link-color);
+     background: rgba(0, 0, 0, 0.03);
+    font-style: italic;
+  }
 
   h2 {
     padding-bottom: 0.5em;
@@ -61,8 +68,7 @@
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
-
+         margin: 0 0 1.2em;
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
