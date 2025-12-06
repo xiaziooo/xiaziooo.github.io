@@ -181,4 +181,38 @@
     }
     .archive h1 { margin-top: 10px !important; font-size: 1.4em !important; }
   }
+ /* ✅✅✅ 手机端：彻底锁死“邮箱/单位/地址”漂移的最终补丁 */
+@media screen and (max-width: 900px) {
+
+  /* 1️⃣ 每一行变成真正的 Flex 行，禁止浏览器自动对齐 */
+  .author__urls.social-icons li {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* 2️⃣ 图标彻底固定为“占位块” */
+  .author__urls.social-icons li i {
+    flex: 0 0 18px !important;   /* ✅ 不伸缩、不抖动 */
+    width: 18px !important;
+    text-align: center !important;
+  }
+
+  /* 3️⃣ 文字锁死左边界，禁止任何“居中继承” */
+  .author__urls.social-icons li a,
+  .author__urls.social-icons li span {
+    flex: 1 !important;
+    text-align: left !important;
+    display: block !important;
+
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}
+ 
 </style>
