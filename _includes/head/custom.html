@@ -29,7 +29,7 @@
   }
 
   /* ==================================================
-     2. 电脑端 (PC) - 保持原样
+     2. 电脑端 (PC) - 保持完美，完全不动
      ================================================== */
   @media screen and (min-width: 901px) {
     .page__inner-wrap { width: 98% !important; max-width: 100% !important; margin: 0 auto !important; padding-top: 20px !important; }
@@ -42,7 +42,7 @@
   }
 
   /* ==================================================
-     3. 手机端 (Mobile) - 修复垂直居中
+     3. 手机端 (Mobile) - 垂直居中修正版
      ================================================== */
   @media screen and (max-width: 900px) {
     
@@ -57,8 +57,8 @@
       width: 100% !important;
       margin: 0 !important;
       
-      /* 这里的 padding 决定了盒子的高度，上下留点空隙 */
-      padding: 10px 8px !important; 
+      /* 这里的 padding 越小，盒子越紧凑 */
+      padding: 8px 8px !important; 
       
       background: white !important;
       border-bottom: 1px solid #ddd !important;
@@ -67,12 +67,15 @@
       
       display: grid !important;
       grid-template-columns: 70px 1fr !important; 
-      grid-template-rows: auto auto !important;
+      /* 让两行高度自动适应内容，紧凑排列 */
+      grid-template-rows: min-content min-content !important;
       column-gap: 10px !important;
       
-      /* 【核心修复】：让内容在垂直方向上居中打包 */
+      /* 【核心修改】：强制垂直居中 */
       align-content: center !important; 
       align-items: center !important;
+      height: auto !important;
+      min-height: 80px !important; /* 给个最小高度保证不塌陷 */
     }
 
     /* --- 左边：头像 --- */
@@ -85,14 +88,16 @@
       visibility: visible !important;
       opacity: 1 !important;
       
-      width: 60px !important;
-      height: 60px !important;
-      max-width: 60px !important;
+      width: 50px !important;
+      height: 50px !important;
+      max-width: 50px !important;
       border-radius: 50% !important;
-      margin: 0 auto !important; /* 水平居中 */
       
-      /* 确保头像垂直方向不被拉伸 */
-      align-self: center !important; 
+      /* 确保自身无额外边距 */
+      margin: 0 auto !important; 
+      
+      /* 垂直居中对齐 */
+      align-self: center !important;
     }
 
     /* --- 左边：名字 --- */
@@ -101,7 +106,8 @@
       grid-row: 2 !important;
       text-align: center !important;
       padding: 0 !important;
-      margin-top: 4px !important; /* 稍微给点距离 */
+      margin-top: 5px !important; /* 名字和头像之间的距离 */
+      align-self: start !important; /* 名字紧跟头像 */
     }
     
     .author__name {
@@ -115,16 +121,18 @@
     /* --- 右边：信息列表 --- */
     .author__urls-wrapper {
       grid-column: 2 !important;
+      /* 跨越两行，确保高度撑满 */
       grid-row: 1 / span 2 !important;
       
       padding: 0 !important;
       margin: 0 !important;
       text-align: left !important;
       border-left: 1px solid #eee !important;
-      padding-left: 12px !important; /* 增加一点左间距 */
+      padding-left: 12px !important;
       
-      height: auto !important;
-      display: flex !important;      /* 使用 Flex 让列表也能垂直居中 */
+      /* 也是垂直居中 */
+      align-self: center !important;
+      display: flex !important;
       flex-direction: column !important;
       justify-content: center !important;
     }
@@ -140,7 +148,7 @@
     .author__urls.social-icons li {
       display: block !important;
       font-size: 12px !important;
-      line-height: 1.5 !important; /* 稍微增加行高，看起来不那么挤 */
+      line-height: 1.5 !important;
       margin: 1px 0 !important;
       white-space: nowrap !important;
       overflow: hidden !important;
