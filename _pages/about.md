@@ -21,8 +21,8 @@ Assistant Professor, Faculty of Science, City University of Macau  Aug 2022�
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022</span>
 
 ## <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
-
-<span style="font-family: 'Latin Modern', Georgia, serif">[1] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
+<span style="font-family: 'Latin Modern', Georgia, serif">
+[1] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
 
 [2] Cheng W, **Feng X**, Wang L, et al. SMUSAC: Lightweight federated learning framework for SUNETs with tolerance of data loss and node compromise[J]. Computer Networks, 2025: 111626. (CCF B, JCR Q1)
 
