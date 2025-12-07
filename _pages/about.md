@@ -43,11 +43,11 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [2] Cheng W, **Feng X**, Wang L, et al. SMUSAC: Lightweight federated learning framework for SUNETs with tolerance of data loss and node compromise[J]. Computer Networks, 2025: 111626. (CCF B, JCR Q1)
 
-[3] Wang Q, **Feng X**, Wang L, et al. FECAC: Fine-grained and efficient capability-based access control for enterprise-scale IoT systems[J]. IEEE Internet of Things Journal, 2024. (JCR Q1, Top)
+[3] Cui K, **Feng X**, Wang L, et al. Secure aggregation with logarithmic overhead for federated learning in VANETs[J]. IEEE Transactions on Consumer Electronics, 2025. (JCR Q1)
 
-[4] Cui K, **Feng X**, Wang L, et al. Secure aggregation with logarithmic overhead for federated learning in VANETs[J]. IEEE Transactions on Consumer Electronics, 2025. (JCR Q1)
+[4] Li K, **Feng X**, Guo Z, et al. VMFL: A verifiable multi-round aggregation scheme for federated learning in VANETs[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
-[5] Li K, **Feng X**, Guo Z, et al. VMFL: A verifiable multi-round aggregation scheme for federated learning in VANETs[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
+[5] Wang Q, **Feng X**, Wang L, et al. FECAC: Fine-grained and efficient capability-based access control for enterprise-scale IoT systems[J]. IEEE Internet of Things Journal, 2024. (JCR Q1, Top)
 
 [6] **Feng X**, Liu H, Yang H, et al. Batch-aggregate: Efficient aggregation for private federated learning in vanets[J]. IEEE Transactions on Dependable and Secure Computing, 2024, 21(5): 4939-4952. (CCF A, JCR Q1, Top)
 
@@ -85,14 +85,14 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Patents</span>
 
+**Feng Xia**, Cui Kaiping, et al.
+A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Blockchain-Based Vehicular Networks; CN112134698A; Granted.<br>
+
+**Feng Xia**, Cui Kaiping, et al.<br>
+An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.<br>
+
 Shi Qichen, **Feng Xia**, et al.
-A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.
-
-**Feng Xia**, Cui Kaiping, et al.
-A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Blockchain-Based Vehicular Networks; CN112134698A; Granted.
-
-**Feng Xia**, Cui Kaiping, et al.
-An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.
+A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.<br>
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Books</span>
 
@@ -101,8 +101,8 @@ Xia Feng, Yuexia Chen, Chao Sun
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Standards Development</span>
 
-IEEE P3422 Standard for Metaverse, Contributor.
-Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 021–2024 and T/KJDL 022–2024, Contributor.
+1.IEEE P3422 Standard for Metaverse, Contributor.<br>
+2.Guangdong Provincial Standards on Vehicular Network Security, including T/KJDL 021–2024 and T/KJDL 022–2024, Contributor.
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Grants</span>
 
