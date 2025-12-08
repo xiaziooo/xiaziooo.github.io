@@ -14,19 +14,23 @@ layout: archive  # <--- 修改此处，原为 'single'
 
 ---
 
-<span style="font-family: 'Latin Modern', Georgia, serif; font-size: 30px;">Feng Xia |</span><span style="font-family: 'Latin Modern', Georgia, serif; font-size: 30px;">冯霞</span>
+<span style="font-family: 'Latin Modern', Georgia, serif; font-size: 30px;">Xia Feng |</span><span style="font-family: 'Latin Modern', Georgia, serif; font-size: 30px;">冯霞</span>
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Profile</span>
 
- I am a Professor in the School of Cyberspace Security at Hainan University, where I serve as an Academic Leader and Ph.D. Supervisor. I joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. I have led multiple research projects funded by the National Natural Science Foundation of China (NSFC), including a Key Program of the Joint Fund, a General Program, and a Young Scientist Program. I received my Ph.D. in Computer Science from Anhui University (2014–2017) and my M.S. in Computer Science from Jiangsu University (2006–2009). I also studied as a Visiting Scholar in the School of Computing at the University of Utah, USA (2016–2017).[[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ)  [[中文版主页]](https://scs.hainanu.edu.cn/info/1051/5382.htm)
+Dr. Xia Feng is a Professor in the School of Cyberspace Security at Hainan University, where she serves as an Academic Leader and Ph.D. Supervisor. She joined Hainan University in 2024 as a Category-C High-Level Talent of Hainan Province. Dr. Feng received her Ph.D. in Computer Science and Technology from Anhui University (2014–2017) and conducted academic research as a Visiting Scholar at the School of Computing, University of Utah, USA (2016–2017).<br>
 
-**Openings**: We welcome motivated Master’s and Ph.D. students to collaborate on the following research topics. Please reach out with your CV if you're interested.
+Dr. Feng specializes in cyber security, vehicular networks, applied cryptography, and adversarial machine learning. Her research has bridged the gap between advanced privacy-preserving cryptographic theory and practical federated learning systems, enabling more efficient, secure, and trustworthy model training in highly dynamic vehicular network environments. By now, she has published more than 60 papers in top-tier journals and conferences, including over 25 works in CCF-A and JCR-Q1 venues, and holds more than 40 invention patents. She has received several notable honors and awards, including provincial and national science and technology awards. She has also led multiple research projects, including Key, General, and Young Scientist Programs of the National Natural Science Foundation of China, as well as provincial R&D and industry-funded projects.<br>
+
+[[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ)  [[中文版主页]](https://scs.hainanu.edu.cn/info/1051/5382.htm)<br>
+
+**Openings**: Opportunities are available for highly motivated Master’s and Ph.D. students interested in the following research areas. Applications with a CV are welcome.
 
 **Contact (email address)**: xiafeng@hainanu.edu.cn
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
- My research interests include VANET security, applied cryptography, security and privacy protection, adversarial machine learning, blockchain applications, and secure multi-party computation.
+The research interests include VANET security, applied cryptography, security and privacy protection, adversarial machine learning, blockchain applications, and secure multi-party computation.
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Work Experience</span>
 
@@ -148,7 +152,7 @@ Xia Feng, Yuexia Chen, Chao Sun
 Youth Editorial Board Member (2024–Present), Journal on Communications
 
 **Reviewing Service**<br>
-I have served as a reviewer for more than 20 leading international journals and conferences, including IEEE TIFS, IEEE TDSC, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Transactions on Emerging Telecommunications Technologies, Vehicular Communications, Computer Standards & Interfaces, Computers & Security, ACM Computing Surveys, and Computer Networks, among others.
+Dr. Feng has served as a reviewer for more than 20 leading international journals and conferences, including IEEE TIFS, IEEE TDSC, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Computers & Security, ACM Computing Surveys, and Computer Networks, among others.
 
 **Professional Activities**<br>
 Expert Reviewer for Talent Programs, Ministry of Education of China<br>
