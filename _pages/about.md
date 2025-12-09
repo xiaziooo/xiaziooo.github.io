@@ -93,7 +93,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [25] **Feng X**, Shi Q, Xie Q, et al. An efficient privacy-preserving authentication model based on blockchain for VANETs[J]. Journal of Systems Architecture, 2021, 117: 102158. (CCF B, JCR Q1)
 
-[26 ]Wang L, Wen F, Cheng K, **Feng X**, et al. SMA: SRv6-based multidomain integrated architecture for industrial internet[J]. IEEE Transactions on Industrial Informatics, 2021, 18(6): 4234-4243. (JCR Q1, Top)
+[26] Wang L, Wen F, Cheng K, **Feng X**, et al. SMA: SRv6-based multidomain integrated architecture for industrial internet[J]. IEEE Transactions on Industrial Informatics, 2021, 18(6): 4234-4243. (JCR Q1, Top)
 
 [27] **Feng X**, Wang L. PAU: Privacy Assessment method with Uncertainty consideration for cloud-based vehicular networks[J]. Future Generation Computer Systems, 2019, 96: 368-375. (JCR Q1)
 
