@@ -53,7 +53,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [5] Li C, Zhu H, Zhou Q, Gan S, **Feng X**. A Triplet Learning-based Framework for Cross-version Smart Contract Vulnerability Detection[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
-[6] Dong B, Wu G, Feng X, et al. AMK-CDiffNet: Adaptive-Multiscale K-Space Cold Diffusion Network for Fast MRI Reconstruction[J]. Expert Systems with Applications, 2025: 129384. (JCR Q1, Top)
+[6] Dong B, Wu G, **Feng X**, et al. AMK-CDiffNet: Adaptive-Multiscale K-Space Cold Diffusion Network for Fast MRI Reconstruction[J]. Expert Systems with Applications, 2025: 129384. (JCR Q1, Top)
 
 [7] Xie Q, Zhu F, **Feng X**. Efficient and Secure Spatial Fuzzy Keyword Query[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
