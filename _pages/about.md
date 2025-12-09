@@ -36,7 +36,7 @@ The research interests include VANET security, applied cryptography, security an
 
 Professor, School of Cyberspace Security, Hainan University  Aug 2024–Present<br>
 
-Assistant Professor, Faculty of Science, City University of Macau  Aug 2022–Aug 2024<br>
+Assistant Professor, Faculty of Data Science, City University of Macau  Aug 2022–Aug 2024<br>
 
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
 <br>
