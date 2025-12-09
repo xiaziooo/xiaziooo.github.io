@@ -100,16 +100,25 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 [28] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
 
 
+ <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
+ 
+1. Li Xingye, **Feng Xia**. A Cross-Chain Interoperability System and Method for Logistics Data Based on Trusted Relays; CN116170152B; Granted.<br>
 
- <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Patents</span>
+2. Liu Haiyang, **Feng Xia**, et al. A Batch Aggregation Method for Federated Learning in IoVs; CN115549901B; Granted.<br>
 
-**Feng Xia**, Cui Kaiping, et al.
+3. Wang Liangmin, Jing Pujie, **Feng Xia**, et al. A Hierarchical Cross-Chain Supervision System for Blockchain and Its Reusable Implementation Method; CN116015685B; Granted.<br>
+
+4. Wang Liangmin, Jia Xuedan, **Feng Xia**, et al. A Privacy-Preserving Auction Traceability Method and Implementation System Based on Ethereum; CN113962714B; Granted.<br>
+
+5. Xie Qingqing, Dong Fan, **Feng Xia**, et al. A Lightweight and Scalable Blockchain System Based on Edge Computing; CN114745102B; Granted.<br>
+
+6.**Feng Xia**, Cui Kaiping, et al.
 A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Blockchain-Based Vehicular Networks; CN112134698A; Granted.<br>
 
-**Feng Xia**, Cui Kaiping, et al.
+7.**Feng Xia**, Cui Kaiping, et al.
 An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.<br>
 
-Shi Qichen, **Feng Xia**, et al.
+8.Shi Qichen, **Feng Xia**, et al.
 A Batch Authentication Method for Privacy Protection in Vehicular Networks; CN113364598B; Granted.<br>
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Books</span>
