@@ -106,7 +106,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 **Feng Xia**, Cui Kaiping, et al.
 A Rapid Vehicle-to-Vehicle Communication Authentication Method and System for Blockchain-Based Vehicular Networks; CN112134698A; Granted.<br>
 
-**Feng Xia**, Cui Kaiping, et al.<br>
+**Feng Xia**, Cui Kaiping, et al.
 An Efficient Anonymous Authentication Method Based on Blockchain Technology in Vehicular Network Environments; CN114978687A; Granted.<br>
 
 Shi Qichen, **Feng Xia**, et al.
