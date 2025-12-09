@@ -100,8 +100,8 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 [28] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
 
 
- <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
- 
+<span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
+
 1. Li Xingye, **Feng Xia**.
 A Cross-Chain Interoperability System and Method for Logistics Data Based on Trusted Relays; CN116170152B; Granted.<br>
 
