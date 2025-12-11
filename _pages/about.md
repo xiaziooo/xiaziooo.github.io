@@ -163,6 +163,7 @@ Xia Feng, Yuexia Chen, Chao Sun
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
 
 **Editorship**<br>
+Youth Editorial Board Member (2024–Present), Journal on Communications<br>
 Associate Editor (2023–2024), IEEE Transactions on Vehicular Technology<br>
 During her tenure, she handled approximately 80 manuscript submissions. She consistently completed all editorial tasks in a timely manner without missing deadlines, ensuring a rigorous, efficient, and fair review process.
 
