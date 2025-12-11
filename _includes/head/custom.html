@@ -1,6 +1,6 @@
 <style>
   /* ==================================================
-     1. 全局基础设置
+     1. 全局基础设置 (这里控制所有页面的字体和对齐)
      ================================================== */
   body {
     background-color: #ffffff !important;
@@ -9,10 +9,19 @@
     overflow-x: hidden !important; 
   }
 
+  /* 全局强制字体 */
   body, .archive, .page__content, p, li, a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Latin Modern', Georgia, serif !important;
   }
   
+  /* 【核心修改】：全局正文两端对齐 (电脑+手机都生效) */
+  .archive p, .archive li, .page__content p, .page__content li {
+    text-align: justify !important;       /* 两端对齐，解决右边参差不齐 */
+    text-justify: inter-word !important;  /* 单词间距优化 */
+    font-size: 1.1em !important;          /* 统一字号 */
+    line-height: 1.6 !important;          /* 统一行高 */
+  }
+
   .page__footer {
     position: static !important;
     margin-top: 50px !important;
@@ -38,7 +47,7 @@
     .author__name { margin-bottom: 40px !important; display: block !important; }
     .author__avatar img { max-width: 180px !important; display: block !important; margin: 0 auto 10px auto !important; }
     .archive { flex: 1 !important; min-width: 0 !important; padding-right: 10px !important; }
-    .archive p { font-size: 1.1em !important; line-height: 1.6 !important; }
+    /* 原来的 .archive p 样式已移至全局，确保手机端也生效 */
   }
 
   /* ==================================================
@@ -93,7 +102,7 @@
       height: 46px !important;
       border-radius: 50% !important;
       margin: 0 auto !important;
-      visibility: visible !important; /* 强制可见 */
+      visibility: visible !important;
       opacity: 1 !important;
     }
 
@@ -115,12 +124,11 @@
       visibility: visible !important;
     }
 
-    /* --- 右边：信息列表 (核心修复区域) --- */
+    /* --- 右边：信息列表 --- */
     .author__urls-wrapper {
       grid-column: 2 !important;
       grid-row: 1 / span 2 !important;
       
-      /* 强制 Flex 布局 */
       display: flex !important;
       flex-direction: column !important;
       justify-content: center !important;
@@ -132,7 +140,6 @@
       margin: 0 !important;
       height: 100% !important;
       
-      /* 【修复】：确保容器本身可见 */
       visibility: visible !important;
       opacity: 1 !important;
     }
@@ -141,7 +148,7 @@
     .author__urls-wrapper button { display: none !important; }
     .author__bio { display: none !important; }
 
-    /* 【修复】：强制显示 ul 列表 */
+    /* 列表强制显示 */
     .author__urls.social-icons {
       display: block !important;
       visibility: visible !important;
@@ -152,10 +159,9 @@
       height: auto !important;
     }
 
-    /* 【修复】：强制显示所有 li，包括可能被主题标记为 desktop-only 的项 */
     .author__urls.social-icons li,
     .author__urls.social-icons li.author__desktop {
-      display: flex !important; /* 强制显示！ */
+      display: flex !important;
       visibility: visible !important;
       align-items: center !important;
       
@@ -171,11 +177,11 @@
     .author__urls.social-icons li a {
       color: #333 !important;
       text-decoration: none !important;
-      display: inline-block !important; /* 防止文字消失 */
+      display: inline-block !important;
     }
     
     .author__urls.social-icons i {
-      flex-shrink: 0 !important; /* 防止图标被压缩消失 */
+      flex-shrink: 0 !important;
       width: 16px !important;
       text-align: center !important;
       margin-right: 4px !important;
