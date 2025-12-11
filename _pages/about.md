@@ -22,10 +22,6 @@ Dr. Xia Feng is a Full Professor and Ph.D. Supervisor in the Faculty of Data Sci
 
 In terms of academic reviewing and editorial service, Dr. Feng has demonstrated a strong sense of responsibility and efficiency. She has served as a reviewer for more than 20 authoritative journals and conferences, including IEEE TIFS, IEEE TDSC, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, among others. To date, she has reviewed more than 500 manuscripts, consistently delivering high-quality reports without missing deadlines. With respect to editorial work, she has handled around 80 submissions as an Associate Editor, ensuring timely decisions and maintaining a rigorous and efficient editorial process.  Besides, her research interests also align closely with the scope of IEEE Transactions on Information Forensics and Security. Her work spans cybersecurity, anonymization and data privacy protection, data encryption, machine learning for information forensics and security, communication/networking and information technology—core areas that directly intersect with the journal’s emphasis on information forensics, trustworthy systems, and security mechanisms in emerging networked environments. 
 
-**Endorsers:**<br>
-● Prof. Yinbin Miao, School of Cyber Engineering, Xidian University (Email: ybmiao@xidian.edu.cn)<br>
-● Prof. Guowen Xu, School of Computer Science and Engineering, University of Electronic Science and Technology of China (Email: guowen.xu@uestc.edu.cn)<br>
-● Prof. Zhiquan Liu, College of Cyber Security, Jinan University (Email: zqliu@vip.qq.com)
 
 [[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
 
