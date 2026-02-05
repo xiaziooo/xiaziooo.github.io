@@ -31,6 +31,7 @@ In terms of academic reviewing and editorial service, Dr. Feng has demonstrated 
 The research interests include cybersecurity, anonymization and data privacy protection, data encryption, machine learning for information forensics and security, communication/networking and information technology. 
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Work Experience</span>
+ 
 Full Professor,School of Cyberspace Security, Hainan University  Sept 2024–Present<br>
  
 Assistant Professor, Faculty of Data Science, City University of Macau  Aug 2022–Aug 2024<br>
