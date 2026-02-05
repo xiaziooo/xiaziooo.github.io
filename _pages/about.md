@@ -32,11 +32,11 @@ The research interests include cybersecurity, anonymization and data privacy pro
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Work Experience</span>
  
-Full Professor,School of Cyberspace Security, Hainan University  Sept 2024–Present<br>
+Full Professor, School of Cyberspace Security, Hainan University  Sep.2024–Present<br>
  
-Assistant Professor, Faculty of Data Science, City University of Macau  Aug 2022–Aug 2024<br>
+Assistant Professor, Faculty of Data Science, City University of Macau  Aug.2022–Aug.2024<br>
 
-Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug 2017–Jul 2022
+Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug.2017–Jul.2022
 <br>
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
