@@ -27,7 +27,7 @@ She has extensive experience in peer review and editorial service, serving as a 
 
 **ORCID**:<span style="font-family: 'Times New Roman', Times, serif;"> 0000-0003-3677-6823</span>
 
-**Contact (email address)**: xiafeng@hainanu.edu.cn
+**Contact (email address)**: xiafeng@hainanu.edu.cn, xiazio@gmail.com
 
 **Google Scholar is available at**: [[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
 
