@@ -17,9 +17,9 @@ layout: archive
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Profile</span>
 
-Dr. Xia Feng is a Full Professor and Ph.D. Supervisor in the School of Cyberspace Security at Hainan University. Situated in Hainan Province, a key region for China’s digital economy and international openness, she has developed a research perspective that is highly attuned to diverse regulatory frameworks, data governance models, privacy expectations, and security practices across different countries and regions. As a female scholar, she contributes to the cybersecurity community in both technical and societal dimensions. At the technical level, her work bridges the gap between advanced privacy-preserving cryptographic theory and practical federated learning systems, enabling more efficient, secure, and trustworthy model training in highly dynamic vehicular network environments. At the community level, she brings a complementary and often underrepresented viewpoint that enhances community diversity and contributes to more inclusive, user-centric approaches to cybersecurity research and academic governance. Building on this academic foundation, she has also contributed to editorial service, having served as an Associate Editor for IEEE Transactions on Vehicular Technology (2023–2024).  In recent years, she has published more than 70 papers in leading journals and conferences such as IEEE TDSC, IEEE TIFS, IEEE TSC, IEEE TMC, IEEE TNSE, IEEE TITS,IEEE TCE,IEEE IoTJ, and IEEE TVT, and has been granted over 50 invention patents.
+Dr. Xia Feng is a Full Professor and Ph.D. Supervisor in the School of Cyberspace Security at Hainan University. Situated in Hainan Province, a key region for China’s digital economy and international openness, she has developed a research perspective that is highly attuned to diverse regulatory frameworks, data governance models, privacy expectations, and security practices across different countries and regions. As a female scholar, she contributes to the cybersecurity community in both technical and societal dimensions. At the technical level, her work bridges the gap between advanced privacy-preserving cryptographic theory and practical federated learning systems, enabling more efficient, secure, and trustworthy model training in highly dynamic vehicular network environments. In particular, in her work published in IEEE Transactions on Dependable and Secure Computing, she was the first to integrate batch authentication with secure gradient aggregation to enhance both the efficiency and privacy of federated learning, especially for highly dynamic VANET environments. At the community level, she brings a complementary and often underrepresented viewpoint that enhances community diversity and contributes to more inclusive, user-centric approaches to cybersecurity research and academic governance. In recent years, she has published more than 60 papers in leading journals and conferences such as IEEE TDSC, IEEE TIFS, IEEE TSC, IEEE TMC, IEEE TNSE, IEEE TITS, IEEE TCE, IEEE IoTJ, and IEEE TVT (including more than 30 papers on CCF-A/JCR-1/TOP journals, with 1 highly cited paper and 1 best paper award from IEEE conference).
 
-In terms of academic reviewing and editorial service, Dr. Feng has demonstrated a strong sense of responsibility and efficiency. She has served as a reviewer for more than 30 authoritative journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, among others. To date, she has reviewed more than 300 manuscripts, consistently delivering high-quality reports without missing deadlines. With respect to editorial work, she has handled around 80 submissions as an Associate Editor, ensuring timely decisions and maintaining a rigorous and efficient editorial process. Her work spans cybersecurity, anonymization and data privacy protection, data encryption, machine learning for information forensics and security, and communication/networking technologies—core areas that contribute to the development of secure, trustworthy, and privacy-preserving systems in modern networked environments.
+In terms of academic reviewing and editorial service, Dr. Feng has demonstrated a strong sense of responsibility and efficiency. She has served as a reviewer for more than 30 leading journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, among others. To date, she has reviewed more than 300 manuscripts, consistently delivering high-quality reports without missing deadlines. Notably, her reviewing contributions to IEEE TDSC have been formally recognized with an official reviewer certificate. In addition, building on her academic foundation, she has contributed to editorial service, having served as Associate Editor, or Academic Editor of multiple journals, such as IEEE Transactions on Vehicular Technology (JCR-1, TOP), Journal on Communications (Chinese T1 journal). Throughout her editorial service, she has managed approximately 80 submissions in a timely, rigorous, and fair manner, including selecting appropriate reviewers, coordinating the peer-review process, and ensuring efficient communication with reviewers and authors. Her research interests include security and privacy protection in different domains such as cloud computing, mobile applications, and Internet of vehicles, applied cryptography, system and network security, which closely aligns with the scope of IEEE TDSC.
 
 
 [[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
@@ -30,7 +30,7 @@ In terms of academic reviewing and editorial service, Dr. Feng has demonstrated 
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
-The research interests include cybersecurity, anonymization and data privacy protection, data encryption, machine learning for information forensics and security, communication/networking and information technology. 
+The research interests include security and privacy protection in different domains such as cloud computing, mobile applications, and Internet of vehicles, applied cryptography, system and network security.
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Work Experience</span>
  
@@ -49,55 +49,61 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [3] Li K, **Feng X**, Wang W, et al. SDB: Scalable blockchain database via searchable encryption and cross-shard mechanism[J]. IEEE Transactions on Information Forensics and Security, 2025, 20: 12260-12274. (CCF A, JCR Q1, Top)
 
-[4] **Feng X**, Cheng W, Cao C, et al. DPLFA: defending private federated learning against poisoning attacks[J]. IEEE Transactions on Services Computing, 2024, 17(4): 1480-1491. (CCF A, JCR Q1, Top)
+[4] **Feng X**, Yang H, Cheng W, et al. SAPE: A Scalable Aggregation with Parallel Encoder for Federated Learning in VANETs[J]. IEEE Transactions on Mobile Computing, 2025. (CCF A, JCR Q1, Top)
 
-[5] Qian H, Liu W, Xu T, Yin J, **Feng X**, et al. A Survey of Learning-based Method Name Prediction[J]. ACM Transactions on Software Engineering and Methodology, 2024. (CCF A, JCR Q1, Top)
+[5] **Feng X**, Cheng W, Cao C, et al. DPLFA: defending private federated learning against poisoning attacks[J]. IEEE Transactions on Services Computing, 2024, 17(4): 1480-1491. (CCF A, JCR Q1, Top)
 
-[6] Cheng W, **Feng X**, Wang L, et al. SMUSAC: Lightweight federated learning framework for SUNETs with tolerance of data loss and node compromise[J]. Computer Networks, 2025: 111626. (CCF B, JCR Q1)
+[6] Qian H, Liu W, Xu T, Yin J, **Feng X**, et al. A Survey of Learning-based Method Name Prediction[J]. ACM Transactions on Software Engineering and Methodology, 2024. (CCF A, JCR Q1, Top)
 
-[7] Cui K, **Feng X**, Wang L, et al. Secure aggregation with logarithmic overhead for federated learning in VANETs[J]. IEEE Transactions on Consumer Electronics, 2025. (JCR Q1)
+[7] Cheng W, **Feng X**, Wang L, et al. SMUSAC: Lightweight federated learning framework for SUNETs with tolerance of data loss and node compromise[J]. Computer Networks, 2025: 111626. (CCF B, JCR Q1)
 
-[8] Li K, **Feng X**, Guo Z, et al. VMFL: A verifiable multi-round aggregation scheme for federated learning in VANETs[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
+[8] Cui K, **Feng X**, Wang L, et al. Secure aggregation with logarithmic overhead for federated learning in VANETs[J]. IEEE Transactions on Consumer Electronics, 2025. (JCR Q1)
 
-[9] Li C, Zhu H, Zhou Q, Gan S, **Feng X**. A Triplet Learning-based Framework for Cross-version Smart Contract Vulnerability Detection[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
+[9] Cui K, **Feng X**, Wang C, et al. FedAuth: A Lightweight and Privacy-Enhanced Authentication Scheme for Federated Learning in IoVs[J]. IEEE Internet of Things Journal, 2026. (JCR Q1, Top)
 
-[10] Dong B, Wu G, **Feng X**, et al. AMK-CDiffNet: Adaptive-Multiscale K-Space Cold Diffusion Network for Fast MRI Reconstruction[J]. Expert Systems with Applications, 2025: 129384. (JCR Q1, Top)
+[10] Li K, **Feng X**, Guo Z, et al. VMFL: A verifiable multi-round aggregation scheme for federated learning in VANETs[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
-[11] Xie Q, Zhu F, **Feng X**. Efficient and Secure Spatial Fuzzy Keyword Query[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
+[11] Li C, Zhu H, Zhou Q, Gan S, **Feng X**. A Triplet Learning-based Framework for Cross-version Smart Contract Vulnerability Detection[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
-[12] Wu Z, Wang L, Zhang X, **Feng X**. EMT: Extended Merkle Tree Structure for Inserted Data Redaction in Permissioned Blockchain[J]. IEEE Transactions on Network Science and Engineering, 2025. (JCR Q1)
+[12] Dong B, Wu G, **Feng X**, et al. AMK-CDiffNet: Adaptive-Multiscale K-Space Cold Diffusion Network for Fast MRI Reconstruction[J]. Expert Systems with Applications, 2025: 129384. (JCR Q1, Top)
 
-[13] Wang Q, **Feng X**, Wang L, et al. FECAC: Fine-grained and efficient capability-based access control for enterprise-scale IoT systems[J]. IEEE Internet of Things Journal, 2024. (JCR Q1, Top)
+[13] Zhang X, Fan J, Chen Y, **Feng X**, et al. PidTree: A Pseudonym-Only Approach for Anonymous AKA in Vehicular Networks[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
-[14] **Feng X**, Cui K, Wang L, et al. PBAG: A privacy-preserving blockchain-based authentication protocol with global-updated commitment in IoVs[J]. IEEE Transactions on Intelligent Transportation Systems, 2024, 25(10): 13524-13545. (CCF B, JCR Q1, Top)
+[14] Xie Q, Zhu F, **Feng X**. Efficient and Secure Spatial Fuzzy Keyword Query[J]. IEEE Internet of Things Journal, 2025. (JCR Q1, Top)
 
-[15] **Feng X**, Shi Q, Li X, et al. IDPonzi: An interpretable detection model for identifying smart Ponzi schemes[J]. Engineering Applications of Artificial Intelligence, 2024, 136: 108868. (JCR Q1, Top)
+[15] Wu Z, Wang L, Zhang X, **Feng X**. EMT: Extended Merkle Tree Structure for Inserted Data Redaction in Permissioned Blockchain[J]. IEEE Transactions on Network Science and Engineering, 2025. (JCR Q1)
 
-[16] **Feng X**, Wang X, Liu H, et al. A privacy-preserving aggregation scheme with continuous authentication for federated learning in VANETs[J]. IEEE Transactions on Vehicular Technology, 2024, 73(7): 9465-9477. (JCR Q1)
+[16] Wang Q, **Feng X**, Wang L, et al. FECAC: Fine-grained and efficient capability-based access control for enterprise-scale IoT systems[J]. IEEE Internet of Things Journal, 2024. (JCR Q1, Top)
 
-[17] Li G, **Feng X**, Wang L, et al. Federated unlearning in the internet of vehicles[C]//2024 54th Annual IEEE/IFIP International Conference on Dependable Systems and Networks-Supplemental Volume (DSN-S). IEEE, 2024: 96-103. (CCF B)
+[17] **Feng X**, Cui K, Wang L, et al. PBAG: A privacy-preserving blockchain-based authentication protocol with global-updated commitment in IoVs[J]. IEEE Transactions on Intelligent Transportation Systems, 2024, 25(10): 13524-13545. (CCF B, JCR Q1, Top)
 
-[18] **Feng X**, Liu H, Wang L, et al. An interpretable model for large-scale smart contract vulnerability detection[J]. Blockchain: Research and Applications, 2024, 5(3): 100209. (JCR Q1)
+[18] **Feng X**, Shi Q, Li X, et al. IDPonzi: An interpretable detection model for identifying smart Ponzi schemes[J]. Engineering Applications of Artificial Intelligence, 2024, 136: 108868. (JCR Q1, Top)
 
-[19] Ma R, Yin S, **Feng X**, et al. A lightweight deep learning-based android malware detection framework[J]. Expert Systems with Applications, 2024, 255: 124633. (JCR Q1, Top)
+[19] **Feng X**, Wang X, Liu H, et al. A privacy-preserving aggregation scheme with continuous authentication for federated learning in VANETs[J]. IEEE Transactions on Vehicular Technology, 2024, 73(7): 9465-9477. (JCR Q1)
 
-[20] **Feng X**, Wang X, Cui K, et al. A distributed message authentication scheme with reputation mechanism for Internet of Vehicles[J]. Journal of Systems Architecture, 2023, 145: 103029. (CCF B, JCR Q1)
+[20] Li G, **Feng X**, Wang L, et al. Federated unlearning in the internet of vehicles[C]//2024 54th Annual IEEE/IFIP International Conference on Dependable Systems and Networks-Supplemental Volume (DSN-S). IEEE, 2024: 96-103. (CCF B)
 
-[21] H Wu, B Düdder, Wang L, Cao Z, Zhou J, **Feng X**, et al. Survey on secure keyword search over outsourced data: from cloud to blockchain-assisted architecture[J]. ACM Computing Surveys, 2023. (JCR Q1, Top)
+[21] **Feng X**, Liu H, Wang L, et al. An interpretable model for large-scale smart contract vulnerability detection[J]. Blockchain: Research and Applications, 2024, 5(3): 100209. (JCR Q1)
 
-[22] Liu Z, Wan L, Guo J, F Huang, **Feng X**, L Wang, J Maet al. PPRU: A privacy-preserving reputation updating scheme for cloud-assisted vehicular networks[J]. IEEE Transactions on vehicular technology, 2023. (JCR Q1)
+[22] Ma R, Yin S, **Feng X**, et al. A lightweight deep learning-based android malware detection framework[J]. Expert Systems with Applications, 2024, 255: 124633. (JCR Q1, Top)
 
-[23] **Feng X**, Cui K, Jiang H, et al. A source authentication scheme for road condition monitoring using consortium blockchain[J]. IEEE Transactions on Vehicular Technology, 2022, 72(5): 6428-6444. (JCR Q1)
+[23] **Feng X**, Wang X, Cui K, et al. A distributed message authentication scheme with reputation mechanism for Internet of Vehicles[J]. Journal of Systems Architecture, 2023, 145: 103029. (CCF B, JCR Q1)
 
-[24] **Feng X**, Cui K, Xie Q, Wang L. Distributed anonymous authentication scheme based on the blockchain in VANET[J]. Journal on Communications, 2022, 43(9): 134–147. (CCF Chinese T1 Journal)
+[24] H Wu, B Düdder, Wang L, Cao Z, Zhou J, **Feng X**, et al. Survey on secure keyword search over outsourced data: from cloud to blockchain-assisted architecture[J]. ACM Computing Surveys, 2023. (JCR Q1, Top)
 
-[25] **Feng X**, Shi Q, Xie Q, et al. An efficient privacy-preserving authentication model based on blockchain for VANETs[J]. Journal of Systems Architecture, 2021, 117: 102158. (CCF B, JCR Q1)
+[25] Liu Z, Wan L, Guo J, F Huang, **Feng X**, L Wang, J Maet al. PPRU: A privacy-preserving reputation updating scheme for cloud-assisted vehicular networks[J]. IEEE Transactions on vehicular technology, 2023. (JCR Q1)
 
-[26] Wang L, Wen F, Cheng K, **Feng X**, et al. SMA: SRv6-based multidomain integrated architecture for industrial internet[J]. IEEE Transactions on Industrial Informatics, 2021, 18(6): 4234-4243. (JCR Q1, Top)
+[26] **Feng X**, Cui K, Jiang H, et al. A source authentication scheme for road condition monitoring using consortium blockchain[J]. IEEE Transactions on Vehicular Technology, 2022, 72(5): 6428-6444. (JCR Q1)
 
-[27] **Feng X**, Wang L. PAU: Privacy Assessment method with Uncertainty consideration for cloud-based vehicular networks[J]. Future Generation Computer Systems, 2019, 96: 368-375. (JCR Q1)
+[27] **Feng X**, Cui K, Xie Q, Wang L. Distributed anonymous authentication scheme based on the blockchain in VANET[J]. Journal on Communications, 2022, 43(9): 134–147. (CCF Chinese T1 Journal)
 
-[28] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
+[28] **Feng X**, Shi Q, Xie Q, et al. An efficient privacy-preserving authentication model based on blockchain for VANETs[J]. Journal of Systems Architecture, 2021, 117: 102158. (CCF B, JCR Q1)
+
+[29] Wang L, Wen F, Cheng K, **Feng X**, et al. SMA: SRv6-based multidomain integrated architecture for industrial internet[J]. IEEE Transactions on Industrial Informatics, 2021, 18(6): 4234-4243. (JCR Q1, Top)
+
+[30] **Feng X**, Wang L. PAU: Privacy Assessment method with Uncertainty consideration for cloud-based vehicular networks[J]. Future Generation Computer Systems, 2019, 96: 368-375. (JCR Q1)
+
+[31] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
 
