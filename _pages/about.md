@@ -254,16 +254,13 @@ Xia Feng, Yuexia Chen, Chao Sun
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
 
 **Editorship**<br>
-Associate Editorial of Journal on Communications (2024–Present), Journal on Communications.<br>
-
-Program Committee of the IEEE 13th International Conference on Information and Communication Networks (ICICN) at 2025<br>
-
-Technical Committee of the 9th International Conference on Data Storage and Data Engineering at 2024<br>
+1.Associate Editorial of Journal on Communications (2024–Present), Journal on Communications.<br>
+2.Program Committee of the IEEE 13th International Conference on Information and Communication Networks (ICICN) at 2025<br>
+3.Technical Committee of the 9th International Conference on Data Storage and Data Engineering at 2024<br>
 
 **Reviewing Service**<br>
 Dr. Feng has served as a reviewer for more than 30 leading international journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Computers & Security, ACM Computing Surveys, and Computer Networks, among others. To date, she has reviewed more than 300 manuscripts, consistently delivering high-quality reports without missing deadlines.
 
 **Professional Activities**<br>
-Expert Reviewer for Talent Programs, Ministry of Education of China, 2023-Present<br>
-
-Expert Reviewer for Research Proposals, National Natural Science Foundation of China, 2023-Present
+1.Expert Reviewer for Talent Programs, Ministry of Education of China, 2023-Present<br>
+2.Expert Reviewer for Research Proposals, National Natural Science Foundation of China, 2023-Present
