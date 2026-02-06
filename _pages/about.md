@@ -25,7 +25,7 @@ In terms of academic reviewing and editorial service, Dr. Feng has demonstrated 
 
 **Contact (email address)**: xiafeng@hainanu.edu.cn
 
-Google Scholar is available at: [[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
+**Google Scholar is available at**: [[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
