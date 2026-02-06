@@ -158,6 +158,28 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [58] Li K, Wang C, **Feng X**, et al. Blockchain Interoperability in Data Exchange Logistics Integration[J]. Mathematics, 2024, 12(10): 1516. (JCR Q1)
 
+[59] Lin X, Jing P, Yu C, **Feng X**. TPLI: A traceable privacy-preserving logistics information scheme via blockchain[C]//2021 International Conference on Networking and Network Applications (NaNA). IEEE, 2021: 345-350.
+
+[60] Fang S, Wu G, Liu Y, **Feng X**, Kong Y. Dual enhanced semantic hashing for fast image retrieval[J]. Multimedia Tools and Applications, 2024, 83(25): 67083-67102.
+
+[61] Mu J, Zhang X, Zhao R, Wang Q, Jing P, **Feng X**. CAKA: Certificateless Authenticated Key Agreement Scheme for Satellite-assisted Unmanned-aerial-vehicle Network[C]//2024 International Conference on Networking and Network Applications (NaNA). IEEE, 2024: 28-34.
+
+[62] Fan W, Liu Z, Wang L, He Y, Guo J, **Feng X**, et al. LBVP: Lightweight Blockchain-Based Vehicle Platooning Scheme for Secure and Efficient Platoon Management[C]//International Conference on Algorithms and Architectures for Parallel Processing. Singapore: Springer Nature Singapore, 2024: 159-178. 
+
+[63] Cui K, **Feng X**, Guo C, et al. Certificateless distributed anonymous authentication scheme based on UTXO in vehicular ad-hoc network[J]. Journal of Chongqing University of Technology (Natural Science), 2023, 37 (05): 194-203.
+
+[64] **Feng X**, Cui K, Li Z, et al. Certificateless batch authentication scheme in internet of vehicles[J]. Journal of Jiangsu University (Natural Science Edition), 2024, 45(06): 694-700.
+
+[65] Jiang L, **Feng X**, Cui K, et al. Research on hybrid electric vehicle station recommendation algorithm based on federated learning[J]. Journal of Chongqing University of Technology (Natural Science), 2025, 39(02): 113-119.
+
+[66] **Feng X**. Research on the Establishment of University Teaching Equipment Information System Based on Grid Management[J]. Information & Computer, 2019,(16):71-72.
+
+[67] Li X, **Feng X**, Cheng K, et al. Enhancing Supply Chain Data Interoperability Through a Secure and Trusted Relay Blockchain[J]. Available at SSRN 4646463.
+
+[68] Xu T, Ding Z, Liu W, Zhu S, Yin J, **Feng X**, et al. A Comprehensive Evaluation of Large Language Models for Method Name Prediction [J]. Available at SSRN 4886577.
+
+[69] Cui K, **Feng X**, Wang L, et al. Chu-ko-nu: a reliable, efficient, and anonymously authentication-enabled realization for multi-round secure aggregation in federated learning[J]. arXiv preprint arXiv:2402.15111, 2024.
+
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
 
 1.**Feng Xia**, Cui Kaiping, et al.
