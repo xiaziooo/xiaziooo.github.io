@@ -41,7 +41,7 @@ Full Professor, School of Cyberspace Security, Hainan University  2024–Prese
  
 Assistant Professor, Faculty of Data Science, City University of Macau  2022–2024<br>
 
-Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  2017–2022<br>
+Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  2017–2022<br>
 
 Visiting Scholar, school of Computing, University of Utah, Feifei LI  2016-2017<br>
 
@@ -265,4 +265,5 @@ Dr. Feng has served as a reviewer for more than 30 leading international journal
 
 **Professional Activities**<br>
 Expert Reviewer for Talent Programs, Ministry of Education of China, 2023-Present<br>
+
 Expert Reviewer for Research Proposals, National Natural Science Foundation of China, 2023-Present
