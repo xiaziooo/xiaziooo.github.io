@@ -37,12 +37,13 @@ The research interests include security and privacy protection in different doma
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Work Experience</span>
  
-Full Professor, School of Cyberspace Security, Hainan University  Sep. 2024–Present<br>
+Full Professor, School of Cyberspace Security, Hainan University  2024–Present<br>
  
-Assistant Professor, Faculty of Data Science, City University of Macau  Aug. 2022–Aug. 2024<br>
+Assistant Professor, Faculty of Data Science, City University of Macau  2022–2024<br>
 
-Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  Aug. 2017–Jul. 2022
-<br>
+Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  2017–2022<br>
+
+Visiting Scholar, school of Computing, University of Utah, Feifei LI  2016-2017<br>
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
  
@@ -248,13 +249,14 @@ Xia Feng, Yuexia Chen, Chao Sun
 
 3.Key Technologies of Maritime Wireless Networks and Their Demonstration Application in the Zhenjiang Section of the Yangtze River, Second Prize of the Zhenjiang Science and Technology Progress Award, 2014, Ranked 5th.
 
+4.“Prompt Learning for Source Code Summarization”, Best Paper Award, 25th IEEE International Conference on Software Quality, Reliability, and Security (QRS 2025).
+
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
 
 **Editorship**<br>
 Associate Editorial of Journal on Communications (2024–Present), Journal on Communications.<br>
-Other Editorial Roles (Program Committee) of the IEEE 13th International Conference on Information and Communication Networks (ICICN) at 2025<br>
-Other Editorial Roles (Technical Committee) of the 9th International Conference on Data Storage and Data Engineering at 2024<br>
-She consistently completed all editorial tasks in a timely manner without missing deadlines, ensuring a rigorous, efficient, and fair review process.
+Program Committee of the IEEE 13th International Conference on Information and Communication Networks (ICICN) at 2025<br>
+Technical Committee of the 9th International Conference on Data Storage and Data Engineering at 2024<br>
 
 **Reviewing Service**<br>
 Dr. Feng has served as a reviewer for more than 30 leading international journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Computers & Security, ACM Computing Surveys, and Computer Networks, among others. To date, she has reviewed more than 300 manuscripts, consistently delivering high-quality reports without missing deadlines.
