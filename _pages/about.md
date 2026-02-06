@@ -120,69 +120,69 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [39] Zhang J, Zhao L, **Feng X**. Fast Handover Strategy Research Based on Mobile IPv6 in VANET[J]. Computer Science, 2016, 43(10): 93-97. 
 
-[40] Xie Q, Zhu F, **Feng X**. Blockchain-enabled data sharing for IoT: A lightweight, secure and searchable scheme[J]. Journal of Systems Architecture, 2024, 154: 103230.
+[40] Liu X, Shi Y, **Feng X**. False traffic information detection based on weak classifiers integration in vehicular ad hoc networks[J]. Journal of Communications, 2016, 37(08): 58-66.
 
-[41] Xu T, Fang C, Qian H, **Feng X**, et al. Prompt Learning for Source Code Summarization[C]//2025 25th International Conference on Software Quality, Reliability and Security (QRS). IEEE, 2025: 176-188. 
+[41] Xie Q, Zhu F, **Feng X**. Blockchain-enabled data sharing for IoT: A lightweight, secure and searchable scheme[J]. Journal of Systems Architecture, 2024, 154: 103230.
 
-[42] Li K, **Feng X**, Guo Z, et al. SDB: Scalable Blockchain Database via Searchable Encryption and Cross-Shard Mechanism[C]//2025 11th IEEE International Conference on Privacy Computing and Data Security (PCDS). IEEE, 2025: 267-274. 
+[42] Xu T, Fang C, Qian H, **Feng X**, et al. Prompt Learning for Source Code Summarization[C]//2025 25th International Conference on Software Quality, Reliability and Security (QRS). IEEE, 2025: 176-188. 
 
-[43] **Feng X**, Wang Y, **Cui K**, et al. A lightweight dual authentication scheme for V2V communication in 6G-based vanets[J]. Digital Communications and Networks, 2024. 
+[43] Li K, **Feng X**, Guo Z, et al. SDB: Scalable Blockchain Database via Searchable Encryption and Cross-Shard Mechanism[C]//2025 11th IEEE International Conference on Privacy Computing and Data Security (PCDS). IEEE, 2025: 267-274. 
 
-[44] **Feng X**, Li K, Wu S, et al. Enhancing the blockchain interoperability through federated learning with directed acyclic graph[J]. IET Blockchain, 2023, 3(4): 238-248.
+[44] **Feng X**, Wang Y, **Cui K**, et al. A lightweight dual authentication scheme for V2V communication in 6G-based vanets[J]. Digital Communications and Networks, 2024. 
 
-[45] **Feng X**, Cui K, Jiang H, et al. EBAS: An Efficient Blockchain-Based Authentication Scheme for Secure Communication in Vehicular Ad Hoc Network[J]. Symmetry, 2022, 14(6): 1230. 
+[45] **Feng X**, Li K, Wu S, et al. Enhancing the blockchain interoperability through federated learning with directed acyclic graph[J]. IET Blockchain, 2023, 3(4): 238-248.
 
-[46] **Feng X**, Wang L. S2PD: A selective sharing scheme for privacy data in vehicular social networks[J]. IEEE Access, 2018, 6: 55139-55148.
+[46] **Feng X**, Cui K, Jiang H, et al. EBAS: An Efficient Blockchain-Based Authentication Scheme for Secure Communication in Vehicular Ad Hoc Network[J]. Symmetry, 2022, 14(6): 1230. 
 
-[47] **Feng X**, Tang J. Obfuscated RSUs vector based signature scheme for detecting conspiracy Sybil attack in VANETs[J]. Mobile Information Systems, 2017, 2017(1): 4682538.
+[47] **Feng X**, Wang L. S2PD: A selective sharing scheme for privacy data in vehicular social networks[J]. IEEE Access, 2018, 6: 55139-55148.
 
-[48] **Feng X**, Li C, Chen D, et al. A method for defensing against multi-source Sybil attacks in VANET[J]. Peer-to-Peer Networking and Applications, 2017, 10: 305-314.
+[48] **Feng X**, Tang J. Obfuscated RSUs vector based signature scheme for detecting conspiracy Sybil attack in VANETs[J]. Mobile Information Systems, 2017, 2017(1): 4682538.
 
-[49] **Feng X**, Li C, Chen D, et al. EBRS: event based reputation system for defensing multi-source sybil attacks in VANET[C]//Wireless Algorithms, Systems, and Applications: 10th International Conference, WASA 2015, Qufu, China, August 10-12, 2015, Proceedings 10. Springer International Publishing, 2015: 145-154.
+[49] **Feng X**, Li C, Chen D, et al. A method for defensing against multi-source Sybil attacks in VANET[J]. Peer-to-Peer Networking and Applications, 2017, 10: 305-314.
 
-[50] Yu C, **Feng X**, Zhan Y. Blockchain-Assisted Anonymous Data Sharing Scheme with Full Accountability for CloudIoT[C]//International Conference on Algorithms and Architectures for Parallel Processing. Singapore: Springer Nature Singapore, 2024: 242-262.
+[50] **Feng X**, Li C, Chen D, et al. EBRS: event based reputation system for defensing multi-source sybil attacks in VANET[C]//Wireless Algorithms, Systems, and Applications: 10th International Conference, WASA 2015, Qufu, China, August 10-12, 2015, Proceedings 10. Springer International Publishing, 2015: 145-154.
 
-[51] Zhang C, **Feng X**. An Identity-based Conditional Privacy-Preserving Authentication Scheme with Key Protection for VANETs[C]//2024 IEEE 12th International Conference on Information, Communication and Networks (ICICN). IEEE, 2024: 171-180.
+[51] Yu C, **Feng X**, Zhan Y. Blockchain-Assisted Anonymous Data Sharing Scheme with Full Accountability for CloudIoT[C]//International Conference on Algorithms and Architectures for Parallel Processing. Singapore: Springer Nature Singapore, 2024: 242-262.
 
-[52] Yang J, **Feng X**, Liu Y. Privacy federation learning framework based on principal component analysis[C]//International Conference on Computer Network Security and Software Engineering (CNSSE 2024). SPIE, 2024, 13175: 90-98.
+[52] Zhang C, **Feng X**. An Identity-based Conditional Privacy-Preserving Authentication Scheme with Key Protection for VANETs[C]//2024 IEEE 12th International Conference on Information, Communication and Networks (ICICN). IEEE, 2024: 171-180.
 
-[53] Shi M, **Feng X**, Pan S, et al. A collaborative path planning method for intelligent agricultural machinery based on unmanned aerial vehicles[J]. Electronics, 2023, 12(15): 3232. 
+[53] Yang J, **Feng X**, Liu Y. Privacy federation learning framework based on principal component analysis[C]//International Conference on Computer Network Security and Software Engineering (CNSSE 2024). SPIE, 2024, 13175: 90-98.
 
-[54] Liu X, **Feng X**, Zhu Y. Transactional data anonymization for privacy and information preservation via disassociation and local suppression[J]. Symmetry, 2022, 14(3): 472. 
+[54] Shi M, **Feng X**, Pan S, et al. A collaborative path planning method for intelligent agricultural machinery based on unmanned aerial vehicles[J]. Electronics, 2023, 12(15): 3232. 
 
-[55] Xin Y, **Feng X**. Replica attack detection method for vehicular ad hoc networks with sequential trajectory segment[J]. International Journal of Distributed Sensor Networks, 2019, 15(2): 1550147719827500. 
+[55] Liu X, **Feng X**, Zhu Y. Transactional data anonymization for privacy and information preservation via disassociation and local suppression[J]. Symmetry, 2022, 14(3): 472. 
 
-[56] Xie Q, Dong F, **Feng X**. HLOChain: A hierarchical blockchain framework with lightweight consensus and optimized storage for IoT[J]. Security and Communication Networks, 2023, 2023(1): 3412200.
+[56] Xin Y, **Feng X**. Replica attack detection method for vehicular ad hoc networks with sequential trajectory segment[J]. International Journal of Distributed Sensor Networks, 2019, 15(2): 1550147719827500. 
 
-[57] Xie Q, Dong F, **Feng X**. ECLB: Edge‐Computing‐Based Lightweight Blockchain Framework for Mobile Systems[J]. Security and Communication Networks, 2021, 2021(1): 5510586. 
+[57] Xie Q, Dong F, **Feng X**. HLOChain: A hierarchical blockchain framework with lightweight consensus and optimized storage for IoT[J]. Security and Communication Networks, 2023, 2023(1): 3412200.
 
-[58] Li K, Wang C, **Feng X**, et al. Blockchain Interoperability in Data Exchange Logistics Integration[J]. Mathematics, 2024, 12(10): 1516. 
+[58] Xie Q, Dong F, **Feng X**. ECLB: Edge‐Computing‐Based Lightweight Blockchain Framework for Mobile Systems[J]. Security and Communication Networks, 2021, 2021(1): 5510586. 
 
-[59] Lin X, Jing P, Yu C, **Feng X**. TPLI: A traceable privacy-preserving logistics information scheme via blockchain[C]//2021 International Conference on Networking and Network Applications (NaNA). IEEE, 2021: 345-350.
+[59] Li K, Wang C, **Feng X**, et al. Blockchain Interoperability in Data Exchange Logistics Integration[J]. Mathematics, 2024, 12(10): 1516. 
 
-[60] Fang S, Wu G, Liu Y, **Feng X**, Kong Y. Dual enhanced semantic hashing for fast image retrieval[J]. Multimedia Tools and Applications, 2024, 83(25): 67083-67102.
+[60] Lin X, Jing P, Yu C, **Feng X**. TPLI: A traceable privacy-preserving logistics information scheme via blockchain[C]//2021 International Conference on Networking and Network Applications (NaNA). IEEE, 2021: 345-350.
 
-[61] Mu J, Zhang X, Zhao R, Wang Q, Jing P, **Feng X**. CAKA: Certificateless Authenticated Key Agreement Scheme for Satellite-assisted Unmanned-aerial-vehicle Network[C]//2024 International Conference on Networking and Network Applications (NaNA). IEEE, 2024: 28-34.
+[61] Fang S, Wu G, Liu Y, **Feng X**, Kong Y. Dual enhanced semantic hashing for fast image retrieval[J]. Multimedia Tools and Applications, 2024, 83(25): 67083-67102.
 
-[62] Fan W, Liu Z, Wang L, He Y, Guo J, **Feng X**, et al. LBVP: Lightweight Blockchain-Based Vehicle Platooning Scheme for Secure and Efficient Platoon Management[C]//International Conference on Algorithms and Architectures for Parallel Processing. Singapore: Springer Nature Singapore, 2024: 159-178. 
+[62] Mu J, Zhang X, Zhao R, Wang Q, Jing P, **Feng X**. CAKA: Certificateless Authenticated Key Agreement Scheme for Satellite-assisted Unmanned-aerial-vehicle Network[C]//2024 International Conference on Networking and Network Applications (NaNA). IEEE, 2024: 28-34.
 
-[63] Cui K, **Feng X**, Guo C, et al. Certificateless distributed anonymous authentication scheme based on UTXO in vehicular ad-hoc network[J]. Journal of Chongqing University of Technology (Natural Science), 2023, 37 (05): 194-203.
+[63] Fan W, Liu Z, Wang L, He Y, Guo J, **Feng X**, et al. LBVP: Lightweight Blockchain-Based Vehicle Platooning Scheme for Secure and Efficient Platoon Management[C]//International Conference on Algorithms and Architectures for Parallel Processing. Singapore: Springer Nature Singapore, 2024: 159-178. 
 
-[64] **Feng X**, Cui K, Li Z, et al. Certificateless batch authentication scheme in internet of vehicles[J]. Journal of Jiangsu University (Natural Science Edition), 2024, 45(06): 694-700.
+[64] Cui K, **Feng X**, Guo C, et al. Certificateless distributed anonymous authentication scheme based on UTXO in vehicular ad-hoc network[J]. Journal of Chongqing University of Technology (Natural Science), 2023, 37 (05): 194-203.
 
-[65] Jiang L, **Feng X**, Cui K, et al. Research on hybrid electric vehicle station recommendation algorithm based on federated learning[J]. Journal of Chongqing University of Technology (Natural Science), 2025, 39(02): 113-119.
+[65] **Feng X**, Cui K, Li Z, et al. Certificateless batch authentication scheme in internet of vehicles[J]. Journal of Jiangsu University (Natural Science Edition), 2024, 45(06): 694-700.
 
-[66] Wang N, Zhu H, Song X, **Feng X**. A Domain Adaptive Security Analysis Framework forSmart Contracts[J]. Journal of Applied Sciences, 2024, 42(04): 585-597.
+[66] Jiang L, **Feng X**, Cui K, et al. Research on hybrid electric vehicle station recommendation algorithm based on federated learning[J]. Journal of Chongqing University of Technology (Natural Science), 2025, 39(02): 113-119.
 
-[67] **Feng X**. Research on the Establishment of University Teaching Equipment Information System Based on Grid Management[J]. Information & Computer, 2019,(16):71-72.
+[67] Wang N, Zhu H, Song X, **Feng X**. A Domain Adaptive Security Analysis Framework forSmart Contracts[J]. Journal of Applied Sciences, 2024, 42(04): 585-597.
 
-[68] Li X, **Feng X**, Cheng K, et al. Enhancing Supply Chain Data Interoperability Through a Secure and Trusted Relay Blockchain[J]. Available at SSRN 4646463.
+[68] **Feng X**. Research on the Establishment of University Teaching Equipment Information System Based on Grid Management[J]. Information & Computer, 2019,(16):71-72.
 
-[69] Xu T, Ding Z, Liu W, Zhu S, Yin J, **Feng X**, et al. A Comprehensive Evaluation of Large Language Models for Method Name Prediction [J]. Available at SSRN 4886577.
+[69] Li X, **Feng X**, Cheng K, et al. Enhancing Supply Chain Data Interoperability Through a Secure and Trusted Relay Blockchain[J]. Available at SSRN 4646463.
 
-[70] Cui K, **Feng X**, Wang L, et al. Chu-ko-nu: a reliable, efficient, and anonymously authentication-enabled realization for multi-round secure aggregation in federated learning[J]. arXiv preprint arXiv:2402.15111, 2024.
+[70] Xu T, Ding Z, Liu W, Zhu S, Yin J, **Feng X**, et al. A Comprehensive Evaluation of Large Language Models for Method Name Prediction [J]. Available at SSRN 4886577.
 
-[71] Liu X, Shi Y, **Feng X**. False traffic information detection based on weak classifiers integration in vehicular ad hoc networks[J]. Journal of Communications, 2016, 37(08): 58-66.
+[71] Cui K, **Feng X**, Wang L, et al. Chu-ko-nu: a reliable, efficient, and anonymously authentication-enabled realization for multi-round secure aggregation in federated learning[J]. arXiv preprint arXiv:2402.15111, 2024.
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
 
