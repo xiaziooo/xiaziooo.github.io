@@ -21,12 +21,11 @@ Dr. Xia Feng is a Full Professor and Ph.D. Supervisor in the School of Cyberspac
 
 In terms of academic reviewing and editorial service, Dr. Feng has demonstrated a strong sense of responsibility and efficiency. She has served as a reviewer for more than 30 leading journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, among others. To date, she has reviewed more than 300 manuscripts, consistently delivering high-quality reports without missing deadlines. Notably, her reviewing contributions to IEEE TDSC have been formally recognized with an official reviewer certificate. In addition, building on her academic foundation, she has contributed to editorial service, having served as Associate Editor, or Academic Editor of multiple journals, such as IEEE Transactions on Vehicular Technology (JCR-1, TOP), Journal on Communications (Chinese T1 journal). Throughout her editorial service, she has managed approximately 80 submissions in a timely, rigorous, and fair manner, including selecting appropriate reviewers, coordinating the peer-review process, and ensuring efficient communication with reviewers and authors. Her research interests include security and privacy protection in different domains such as cloud computing, mobile applications, and Internet of vehicles, applied cryptography, system and network security, which closely aligns with the scope of IEEE TDSC.
 
-
-[[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
-
 **ORCID**:<span style="font-family: 'Times New Roman', Times, serif;"> 0000-0003-3677-6823</span>
 
 **Contact (email address)**: xiafeng@hainanu.edu.cn
+
+Google Scholar is available at: [Google Scholar][[Google Scholar]](https://scholar.google.com.hk/citations?hl=zh-CN&user=XyomPPUAAAAJ) <br>
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Research Interests</span>
 
