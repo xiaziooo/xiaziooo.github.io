@@ -17,13 +17,11 @@ layout: archive
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Profile</span>
 
-Dr. Xia Feng is a Professor, Ph.D. Supervisor, and Postdoctoral Co-supervisor at Hainan University. Her research focuses on cybersecurity, privacy-preserving machine learning, and Internet of Vehicles. 
+Dr. Xia Feng is a Professor, Ph.D. Supervisor, and Postdoctoral Co-supervisor at Hainan University. Her research focuses on cybersecurity, privacy-preserving machine learning, and Internet of Vehicles. She was a visiting Scholar at the University of Utah under Prof. Feifei Li (2016-2017). She is currently an adjunct professor and Ph.D. supervisor at City University of Macau. 
 
-She actively pursues international collaboration. She was a visiting Scholar at the University of Utah under Prof. Feifei Li (2016-2017). She is currently an adjunct professor and Ph.D. supervisor at City University of Macau. 
+She has published over 70 papers in leading journals and conferences such as IEEE TDSC, IEEE TIFS, IEEE TSC, IEEE TMC, IEEE TNSE, IEEE TITS, IEEE IoTJ, and IEEE TVT, with 1 highly cited paper and 1 best paper award from IEEE conference. She has led three projects funded by the National Natural Science Foundation of China (NSFC), including a Key Project on Secure Collaborative Computing for autonomous driving in Internet of vehicles.
 
-Dr. Xia Feng has published over 70 papers in leading journals and conferences such as IEEE TDSC, IEEE TIFS, IEEE TSC, IEEE TMC, IEEE TNSE, IEEE TITS, IEEE IoTJ, and IEEE TVT, with 1 highly cited paper and 1 best paper award from IEEE conference. She has led three projects funded by the National Natural Science Foundation of China (NSFC), including a Key Project on Secure Collaborative Computing for autonomous driving in Internet of vehicles.
-
-She has extensive experience in peer review and editorial service, serving as a reviewer for more than 30 international journals and conferences. Notably, her reviewing contributions to IEEE TDSC, IEEE TIFS, IEEE TMC, and IEEE TSC, among others, have been formally recognized with official reviewer certificates. To date, she has completed over 300 reviews with consistently high-quality reports delivered within the requested deadlines.
+Dr. Xia Feng has extensive experience in peer review and editorial service, serving as a reviewer for more than 30 international journals and conferences. Notably, her reviewing contributions to IEEE TDSC, IEEE TIFS, IEEE TMC, and IEEE TSC, among others, have been formally recognized with official reviewer certificates. To date, she has completed over 300 reviews with consistently high-quality reports delivered within the requested deadlines.
 
 **ORCID**:<span style="font-family: 'Times New Roman', Times, serif;"> 0000-0003-3677-6823</span>
 
