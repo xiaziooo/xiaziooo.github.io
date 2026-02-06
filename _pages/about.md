@@ -247,13 +247,14 @@ Xia Feng, Yuexia Chen, Chao Sun
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Professional Service</span>
 
 **Editorship**<br>
-Youth Editorial Board Member (2024–Present), Journal on Communications<br>
-Associate Editor (2023–2024), IEEE Transactions on Vehicular Technology<br>
-During her tenure, she handled approximately 80 manuscript submissions. She consistently completed all editorial tasks in a timely manner without missing deadlines, ensuring a rigorous, efficient, and fair review process.
+Associate Editorial of Journal on Communications (2024–Present), Journal on Communications.<br>
+Other Editorial Roles (Program Committee) of the IEEE 13th International Conference on Information and Communication Networks (ICICN) at 2025<br>
+Other Editorial Roles (Technical Committee) of the 9th International Conference on Data Storage and Data Engineering at 2024<br>
+She consistently completed all editorial tasks in a timely manner without missing deadlines, ensuring a rigorous, efficient, and fair review process.
 
 **Reviewing Service**<br>
-Dr. Feng has served as a reviewer for more than 20 leading international journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Computers & Security, ACM Computing Surveys, and Computer Networks, among others. To date, she has reviewed more than 500 manuscripts, consistently delivering high-quality reports without missing deadlines.
+Dr. Feng has served as a reviewer for more than 30 leading international journals and conferences, including IEEE TDSC, IEEE TIFS, IEEE TMC, IEEE TKDE, IEEE TITS, IEEE TCE, IEEE IoTJ, IEEE TVT, IEEE TNSE, Engineering Applications of Artificial Intelligence, Computers & Security, ACM Computing Surveys, and Computer Networks, among others. To date, she has reviewed more than 300 manuscripts, consistently delivering high-quality reports without missing deadlines.
 
 **Professional Activities**<br>
-Expert Reviewer for Talent Programs, Ministry of Education of China<br>
-Expert Reviewer for Research Proposals, National Natural Science Foundation of China
+Expert Reviewer for Talent Programs, Ministry of Education of China, 2023-Present<br>
+Expert Reviewer for Research Proposals, National Natural Science Foundation of China, 2023-Present
