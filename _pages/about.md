@@ -120,6 +120,44 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [39] Zhang J, Zhao L, **Feng X**. Fast Handover Strategy Research Based on Mobile IPv6 in VANET[J]. Computer Science, 2016, 43(10): 93-97. (CCF Chinese T2 Journal)
 
+[40] Xie Q, Zhu F, **Feng X**. Blockchain-enabled data sharing for IoT: A lightweight, secure and searchable scheme[J]. Journal of Systems Architecture, 2024, 154: 103230. (CCF B, JCR Q1)
+
+[41] Xu T, Fang C, Qian H, **Feng X**, et al. Prompt Learning for Source Code Summarization[C]//2025 25th International Conference on Software Quality, Reliability and Security (QRS). IEEE, 2025: 176-188. (CCF C)
+
+[42] Li K, **Feng X**, Guo Z, et al. SDB: Scalable Blockchain Database via Searchable Encryption and Cross-Shard Mechanism[C]//2025 11th IEEE International Conference on Privacy Computing and Data Security (PCDS). IEEE, 2025: 267-274. (EI)
+
+[43] **Feng X**, Wang Y, **Cui K**, et al. A lightweight dual authentication scheme for V2V communication in 6G-based vanets[J]. Digital Communications and Networks, 2024. (JCR Q1)
+
+[44] **Feng X**, Li K, Wu S, et al. Enhancing the blockchain interoperability through federated learning with directed acyclic graph[J]. IET Blockchain, 2023, 3(4): 238-248.
+
+[45] **Feng X**, Cui K, Jiang H, et al. EBAS: An Efficient Blockchain-Based Authentication Scheme for Secure Communication in Vehicular Ad Hoc Network[J]. Symmetry, 2022, 14(6): 1230. (JCR Q2)
+
+[46] **Feng X**, Wang L. S2PD: A selective sharing scheme for privacy data in vehicular social networks[J]. IEEE Access, 2018, 6: 55139-55148. (JCR Q2)
+
+[47] **Feng X**, Tang J. Obfuscated RSUs vector based signature scheme for detecting conspiracy Sybil attack in VANETs[J]. Mobile Information Systems, 2017, 2017(1): 4682538.
+
+[48] **Feng X**, Li C, Chen D, et al. A method for defensing against multi-source Sybil attacks in VANET[J]. Peer-to-Peer Networking and Applications, 2017, 10: 305-314. (JCR Q2)
+
+[49] **Feng X**, Li C, Chen D, et al. EBRS: event based reputation system for defensing multi-source sybil attacks in VANET[C]//Wireless Algorithms, Systems, and Applications: 10th International Conference, WASA 2015, Qufu, China, August 10-12, 2015, Proceedings 10. Springer International Publishing, 2015: 145-154.（CCF C）
+
+[50] Yu C, **Feng X**, Zhan Y. Blockchain-Assisted Anonymous Data Sharing Scheme with Full Accountability for CloudIoT[C]//International Conference on Algorithms and Architectures for Parallel Processing. Singapore: Springer Nature Singapore, 2024: 242-262.（CCF C）
+
+[51] Zhang C, **Feng X**. An Identity-based Conditional Privacy-Preserving Authentication Scheme with Key Protection for VANETs[C]//2024 IEEE 12th International Conference on Information, Communication and Networks (ICICN). IEEE, 2024: 171-180.
+
+[52] Yang J, **Feng X**, Liu Y. Privacy federation learning framework based on principal component analysis[C]//International Conference on Computer Network Security and Software Engineering (CNSSE 2024). SPIE, 2024, 13175: 90-98.
+
+[53] Shi M, **Feng X**, Pan S, et al. A collaborative path planning method for intelligent agricultural machinery based on unmanned aerial vehicles[J]. Electronics, 2023, 12(15): 3232. (JCR Q2)
+
+[54] Liu X, **Feng X**, Zhu Y. Transactional data anonymization for privacy and information preservation via disassociation and local suppression[J]. Symmetry, 2022, 14(3): 472. (JCR Q2)
+
+[55] Xin Y, **Feng X**. Replica attack detection method for vehicular ad hoc networks with sequential trajectory segment[J]. International Journal of Distributed Sensor Networks, 2019, 15(2): 1550147719827500. (JCR Q3)
+
+[56] Xie Q, Dong F, **Feng X**. HLOChain: A hierarchical blockchain framework with lightweight consensus and optimized storage for IoT[J]. Security and Communication Networks, 2023, 2023(1): 3412200.
+
+[57] Xie Q, Dong F, **Feng X**. ECLB: Edge‐Computing‐Based Lightweight Blockchain Framework for Mobile Systems[J]. Security and Communication Networks, 2021, 2021(1): 5510586. 
+
+[58] Li K, Wang C, **Feng X**, et al. Blockchain Interoperability in Data Exchange Logistics Integration[J]. Mathematics, 2024, 12(10): 1516. (JCR Q1)
+
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
 
 1.**Feng Xia**, Cui Kaiping, et al.
