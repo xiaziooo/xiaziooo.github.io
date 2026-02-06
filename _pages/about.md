@@ -104,6 +104,22 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [31] **Feng X**, Liu Y. Dynamic Mix-zone scheme with joint-entropy based metric for privacy-preserving in IoV[J]. Journal of Communications, 2018, 39(3): 76–85. (CCF Chinese T1 Journal)
 
+[32] **Feng X**, Mao L, Xu T, et al. Review of LLM safety research on autonomous driving under vehicle-road-cloud collaboration[J]. Journal of Communications, 2025, 46(11): 291-307. (CCF Chinese T1 Journal)
+
+[33] Xie Q, Zhu F, **Feng X**. Scalable attribute-based encryption scheme with multiple tracing mechanisms[J]. Journal of Communications, 2025, 46(08): 119-134. (CCF Chinese T1 Journal)
+
+[34] Xie Q, Yang N, **Feng X**. Blockchain-based noisy data sharing control protocol[J]. Journal of Communications, 2023, 44(10): 198-212. (CCF Chinese T1 Journal)
+
+[35] Xie Q, Song L, **Feng X**. Lightweight and secure search scheme for medical data sharing[J]. Journal of Communications, 2024, 45(11): 206-222. (CCF Chinese T1 Journal)
+
+[36] Xin Y, **Feng X**, Li T. Position related lightweight Sybil detection approach in VANET[J]. Journal of Communications, 2017, 38(04): 110-119. (CCF Chinese T1 Journal)
+
+[37] Han Z, **Feng X**, Chen G. SDN based e-mail repudiation source restraining method[J]. Journal of Communications, 2016, 37(09): 55-67. (CCF Chinese T1 Journal)
+
+[38] Xie Q, Yang N, **Feng X**. Survey on privacy-preserving technology for blockchain transaction[J]. Journal of Computer Applications, 2023, 43(10): 2996-3007. (CCF Chinese T2 Journal)
+
+[39] Zhang J, Zhao L, **Feng X**. Fast Handover Strategy Research Based on Mobile IPv6 in VANET[J]. Computer Science, 2016, 43(10): 93-97. (CCF Chinese T2 Journal)
+
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
 
 1.**Feng Xia**, Cui Kaiping, et al.
