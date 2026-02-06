@@ -43,7 +43,7 @@ Assistant Professor, Faculty of Data Science, City University of Macau  2022
 
 Associate Professor, School of Automotive and Traffic Engineering, Jiangsu University  2017–2022<br>
 
-Visiting Scholar, school of Computing, University of Utah, Feifei Li  2016-2017<br>
+Visiting Scholar, School of Computing, University of Utah, Feifei Li  2016-2017<br>
 
  <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Publication List</span>
  
