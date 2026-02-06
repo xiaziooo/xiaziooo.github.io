@@ -45,7 +45,7 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 Visiting Scholar, school of Computing, University of Utah, Feifei LI  2016-2017<br>
 
- <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Publications</span>
+ <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Publication List</span>
  
 [1] **Feng X**, Liu H, Yang H, et al. Batch-aggregate: Efficient aggregation for private federated learning in vanets[J]. IEEE Transactions on Dependable and Secure Computing, 2024, 21(5): 4939-4952. 
  
