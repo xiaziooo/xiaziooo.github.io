@@ -94,11 +94,11 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [26] **Feng X**, Cui K, Jiang H, et al. A source authentication scheme for road condition monitoring using consortium blockchain[J]. IEEE Transactions on Vehicular Technology, 2022, 72(5): 6428-6444. 
 
-[27] **Feng X**, Cui K, Xie Q, Wang L. Distributed anonymous authentication scheme based on the blockchain in VANET[J]. Journal on Communications, 2022, 43(9): 134–147. (CCF Chinese T1 Journal)
+[27] **Feng X**, Cui K, Xie Q, Wang L. Distributed anonymous authentication scheme based on the blockchain in VANET[J]. Journal on Communications, 2022, 43(9): 134–147. 
 
-[28] **Feng X**, Shi Q, Xie Q, et al. An efficient privacy-preserving authentication model based on blockchain for VANETs[J]. Journal of Systems Architecture, 2021, 117: 102158. (CCF B, JCR Q1)
+[28] **Feng X**, Shi Q, Xie Q, et al. An efficient privacy-preserving authentication model based on blockchain for VANETs[J]. Journal of Systems Architecture, 2021, 117: 102158. 
 
-[29] Wang L, Wen F, Cheng K, **Feng X**, et al. SMA: SRv6-based multidomain integrated architecture for industrial internet[J]. IEEE Transactions on Industrial Informatics, 2021, 18(6): 4234-4243. (JCR Q1, Top)
+[29] Wang L, Wen F, Cheng K, **Feng X**, et al. SMA: SRv6-based multidomain integrated architecture for industrial internet[J]. IEEE Transactions on Industrial Informatics, 2021, 18(6): 4234-4243. 
 
 [30] **Feng X**, Wang L. PAU: Privacy Assessment method with Uncertainty consideration for cloud-based vehicular networks[J]. Future Generation Computer Systems, 2019, 96: 368-375. 
 
