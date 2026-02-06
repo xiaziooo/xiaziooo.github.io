@@ -172,13 +172,15 @@ Associate Professor, School of Automotive and Traffic Engineering, Jiangsu Unive
 
 [65] Jiang L, **Feng X**, Cui K, et al. Research on hybrid electric vehicle station recommendation algorithm based on federated learning[J]. Journal of Chongqing University of Technology (Natural Science), 2025, 39(02): 113-119.
 
-[66] **Feng X**. Research on the Establishment of University Teaching Equipment Information System Based on Grid Management[J]. Information & Computer, 2019,(16):71-72.
+[66] Wang N, Zhu H, Song X, **Feng X**. A Domain Adaptive Security Analysis Framework forSmart Contracts[J]. Journal of Applied Sciences, 2024, 42(04): 585-597.
 
-[67] Li X, **Feng X**, Cheng K, et al. Enhancing Supply Chain Data Interoperability Through a Secure and Trusted Relay Blockchain[J]. Available at SSRN 4646463.
+[67] **Feng X**. Research on the Establishment of University Teaching Equipment Information System Based on Grid Management[J]. Information & Computer, 2019,(16):71-72.
 
-[68] Xu T, Ding Z, Liu W, Zhu S, Yin J, **Feng X**, et al. A Comprehensive Evaluation of Large Language Models for Method Name Prediction [J]. Available at SSRN 4886577.
+[68] Li X, **Feng X**, Cheng K, et al. Enhancing Supply Chain Data Interoperability Through a Secure and Trusted Relay Blockchain[J]. Available at SSRN 4646463.
 
-[69] Cui K, **Feng X**, Wang L, et al. Chu-ko-nu: a reliable, efficient, and anonymously authentication-enabled realization for multi-round secure aggregation in federated learning[J]. arXiv preprint arXiv:2402.15111, 2024.
+[69] Xu T, Ding Z, Liu W, Zhu S, Yin J, **Feng X**, et al. A Comprehensive Evaluation of Large Language Models for Method Name Prediction [J]. Available at SSRN 4886577.
+
+[70] Cui K, **Feng X**, Wang L, et al. Chu-ko-nu: a reliable, efficient, and anonymously authentication-enabled realization for multi-round secure aggregation in federated learning[J]. arXiv preprint arXiv:2402.15111, 2024.
 
 <span style="font-family: 'Latin Modern', Georgia, serif; font-size: 22px; color: #d85c27;">Selected Patents</span>
 
